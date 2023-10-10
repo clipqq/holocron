@@ -1,32 +1,65 @@
 import os
+from flask import (
+    Flask,
+    redirect,
+    render_template,
+    request,
+    send_from_directory,
+    url_for,
+)
+import openai
+from dotenv import load_dotenv
 
-from flask import (Flask, redirect, render_template, request,
-                   send_from_directory, url_for)
+# from langchain.document_loaders import TextLoader, DirectoryLoader
+# from langchain.indexes import VectorstoreIndexCreator
+# from langchain.llms import openai
+# from langchain.chat_models import ChatOpenAI
+
+openai.api_key = os.getenv("OPENAI_API_KEY")
+
 
 app = Flask(__name__)
 
 
-@app.route('/')
+@app.route("/")
 def index():
-   print('Request for index page received')
-   return render_template('index.html')
+    print("Request for index page received")
+    return render_template("index.html")
 
-@app.route('/favicon.ico')
+
+@app.route("/favicon.ico")
 def favicon():
-    return send_from_directory(os.path.join(app.root_path, 'static'),
-                               'favicon.ico', mimetype='image/vnd.microsoft.icon')
+    return send_from_directory(
+        os.path.join(app.root_path, "static"),
+        "favicon.ico",
+        mimetype="image/vnd.microsoft.icon",
+    )
 
-@app.route('/hello', methods=['POST'])
+
+@app.route("/hello", methods=["POST"])
 def hello():
-   name = request.form.get('name')
+    userInput = request.form.get("user-input")
 
-   if name:
-       print('Request for hello page received with name=%s' % name)
-       return render_template('hello.html', name = name)
-   else:
-       print('Request for hello page received with no name or blank name -- redirecting')
-       return redirect(url_for('index'))
+    # loader = TextLoader('data.txt')
+    # loader = DirectoryLoader(".", glob="*.txt")
+    # index = VectorstoreIndexCreator().from_loaders([loader])
+
+    gptRes = openai.ChatCompletion.create(
+        model="gpt-3.5-turbo",
+        messages=[{"role": "user", "content": userInput}],
+    )
+    gptContent = gptRes["choices"][0]["message"]["content"]
+    print(gptContent)
+
+    # print(index.query(userInput))
+
+    if userInput:
+        print("Request for input page received: " % userInput)
+        return render_template("hello.html", input=userInput, output=gptContent)
+    else:
+        print("Request for input page received with empty input -- redirecting")
+        return redirect(url_for("index"))
 
 
-if __name__ == '__main__':
-   app.run()
+if __name__ == "__main__":
+    app.run()
