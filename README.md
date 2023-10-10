@@ -5,7 +5,9 @@ https://github.com/clipqq/brookhurst-app
 
 ---
 
-# Feature Requests
+# Known Issues
+
+-   If `Resource punkt not found` error, check: https://github.com/delip/PyTorchNLPBook/issues/14
 
 ---
 
@@ -107,6 +109,7 @@ Because pull performs a merge on the retrieved changes, you should ensure that y
 
 Save and commit your changes to the remote Git Repository
 
+(if new dependencies added):`pip3 freeze > requirements.txt`
 `git add .`
 `git commit -m 'YOUR_CHANGE_NOTES_HERE'`
 `git push`

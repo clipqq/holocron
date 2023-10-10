@@ -7,13 +7,16 @@ from flask import (
     send_from_directory,
     url_for,
 )
-import openai
 from dotenv import load_dotenv
 
-# from langchain.document_loaders import TextLoader, DirectoryLoader
-# from langchain.indexes import VectorstoreIndexCreator
-# from langchain.llms import openai
-# from langchain.chat_models import ChatOpenAI
+import openai
+import nltk
+
+from langchain.document_loaders import TextLoader, DirectoryLoader
+from langchain.indexes import VectorstoreIndexCreator
+from langchain.llms import openai
+from langchain.chat_models import ChatOpenAI
+
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
@@ -41,20 +44,21 @@ def hello():
     userInput = request.form.get("user-input")
 
     # loader = TextLoader('data.txt')
-    # loader = DirectoryLoader(".", glob="*.txt")
-    # index = VectorstoreIndexCreator().from_loaders([loader])
+    loader = DirectoryLoader("data", glob="*.txt")
+    index = VectorstoreIndexCreator().from_loaders([loader])
 
-    gptRes = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
-        messages=[{"role": "user", "content": userInput}],
-    )
-    gptContent = gptRes["choices"][0]["message"]["content"]
+    # gptRes = openai.ChatCompletion.create(
+    #     model="gpt-3.5-turbo",
+    #     messages=[{"role": "user", "content": userInput}],
+    # )
+    # gptContent = gptRes["choices"][0]["message"]["content"]
+    # print(gptContent)
+
+    gptContent = index.query(userInput)
     print(gptContent)
 
-    # print(index.query(userInput))
-
     if userInput:
-        print("Request for input page received: " % userInput)
+        print("Request for input page received: " + userInput)
         return render_template("hello.html", input=userInput, output=gptContent)
     else:
         print("Request for input page received with empty input -- redirecting")
