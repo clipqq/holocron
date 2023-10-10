@@ -1,3 +1,5 @@
+Below is the JSON for home sales in the city of Houston.
+
 {
   "results": [
     {

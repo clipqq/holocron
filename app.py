@@ -44,7 +44,9 @@ def hello():
     userInput = request.form.get("user-input")
 
     # loader = TextLoader('data.txt')
-    loader = DirectoryLoader("data", glob="*.txt")
+    loader = DirectoryLoader(
+        "data", glob="*", show_progress=True, loader_cls=TextLoader
+    )
     index = VectorstoreIndexCreator().from_loaders([loader])
 
     # gptRes = openai.ChatCompletion.create(
