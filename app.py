@@ -9,7 +9,7 @@ from flask import (
 )
 from dotenv import load_dotenv
 
-import openai
+# import openai
 import nltk
 
 from langchain.document_loaders import TextLoader, DirectoryLoader, JSONLoader
