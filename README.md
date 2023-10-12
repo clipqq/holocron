@@ -8,6 +8,7 @@ https://github.com/clipqq/brookhurst-app
 # Known Issues
 
 -   If `Resource punkt not found` error, check: https://github.com/delip/PyTorchNLPBook/issues/14
+-   Fix dependency errors by removing all versions (find and replace version numbers:`==([A-Za-z0-9]+(\.[A-Za-z0-9]+) )+)` ) and reinstalling `requirements.txt`
 
 ---
 
