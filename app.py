@@ -9,17 +9,17 @@ from flask import (
 )
 from dotenv import load_dotenv
 
-# import openai
+import openai
 import nltk
 
 from langchain.document_loaders import TextLoader, DirectoryLoader, JSONLoader
 from langchain.indexes import VectorstoreIndexCreator
-from langchain.llms import openai
+from langchain.llms import openai as LlmOpenai
 from langchain.chat_models import ChatOpenAI
 
 import json
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
+LlmOpenai.api_key = os.getenv("OPENAI_API_KEY")
 
 
 app = Flask(__name__)
