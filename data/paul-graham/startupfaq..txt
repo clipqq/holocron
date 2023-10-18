@@ -1,0 +1,62 @@
+Startup FAQ --
+
+How do you get funding for a startup?See How to Fund a Startup
+for an attempt at a complete answer.
+--
+Where do you find co-founders?Most successful startups have more than one founder, and usually the
+founders seem to have been friends for at least a year before starting
+the company.  The best way to meet co-founders is to go to school with
+them, so recent grads have a big advantage there.  You can also meet
+co-founders at work, but be careful not to violate whatever noncompete 
+you signed.  In the old days, co-founders often met through user groups, but 
+this seems less common now.How can someone start a startup if they have a family to support?The best plan might be to start a consulting business that you can
+gradually morph into a startup.  This way you always have
+a source of income.  See How to 
+Fund a Startup, especially the section labelled "Consulting."Do you know of any good books about startups?The how-to type of books are generally wretched.
+Many are downright mistaken.The best source of information about startups is probably not 
+business books, but histories of 
+particular startups and industries.  The most famous is Tracy
+Kidder's Soul of a New Machine, but there are many
+good books of this type.  I particularly liked Sorensen's
+My Forty Years with Ford.The one book we encourage startup founders to read is Dale Carnegie's
+How to Win Friends and Influence People.  It's critically 
+important for anyone in business.  Try to get a used copy printed 
+before the 1960s; after Carnegie died, the book continued to be 
+"updated" by a committee, and the changes were not for the better.
+I'd also recommend Franklin's Autobiography.I have multiple startup ideas.  How do I decide which to work on?Work on the one that will cause the most immediate, concrete improvement
+in users' lives.  Don't worry too much at first about competitors,
+or how users will find out about it, or how to make money.  But don't
+work on something that's going to take ten years, either.
+(In technology, ten years rounds up to never.)Google is a good example.  Everyone needs Web search, and the
+founders probably had something that significantly improved their own 
+ability to find stuff online within the first couple months. And 
+once something starts to work (a) it's enormously encouraging, and
+(b) it's much clearer what direction to take it in.How much should a startup worry about being sued for patent
+infringement?There are two kinds of patent suits:1. Random people suing you in the hope of getting money.2. Competitors suing you in order to destroy you.Until you're successful, you
+won't have to worry about the first type. And once you are successful,
+you'll inevitably have a lot of them to deal with, valid or not.
+So fatalism is the right plan for type 1 suits.How much you
+should worry about type 2 suits depends on what kind of business
+you're in. You probably have to worry more about it in hardware
+than in software. In software such suits are rare, so far.So if you're doing software, I'd try to build something people want,
+and then hope
+for the best. The best, in this case, being that you get big enough
+that you have to worry about type 1 suits.In software, patent suits are rarely to never the deciding factor in whether
+a startup succeeds or not.  Founders should probably spend 100x as 
+much time worrying about building something users won't want, because
+that kills 100x more startups than patent problems.See Are Software Patents Evil? for
+more.
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

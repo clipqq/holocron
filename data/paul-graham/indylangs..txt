@@ -1,0 +1,22 @@
+Indy Languages --
+
+There are a lot of new programming languages lately.  Jonathan Erickson calls
+it the "programming language renaissance."What's happening?  I think the cause is partly that computers are now so powerful
+that you can get decent performance without writing a native code compiler, and partly
+that in Web-based applications, you can use any language you want, so there is
+a prospect of new languages actually getting used.Maybe most important is the example of Larry Wall, who showed everyone that if
+you build it, they will come.ArcDGleeGooIconJKJoyObliqUniconUnlambda
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

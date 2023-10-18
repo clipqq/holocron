@@ -1,0 +1,20 @@
+A Firefox in IE's Henhouse --
+
+By Steve Hamm, Business Week Online, 17 Sep 2004.Though the Mozilla Web browser's share is still small, 
+it's winning converts wary of security holes in Microsoft's 
+dominant product
+When was the last time you heard about the browser wars? Well, they're back. The reason: For the first time in more than seven years, Microsoft is losing Web browser market share. And it's not just a blip. According to Web analytics company WebSideStory, Microsoft's share of browser users who visited top e-commerce and corporate sites shrank from 95.6% in June to 93.7% in September. And people using browsers made by the Mozilla open-source software group grew from 3.5% to 5.2%.Programmers at the Mozilla Foundation hope to increase that momentum with the release this fall of their new browser's consumer-ready version, called Firefox 1.0. It's superfast and suffers few of the security problems that have plagued Microsoft's Internet Explorer in recent months. "There's a window of opportunity for Mozilla to gain significant market share," says Stacey Quandt, analyst with tech consultant Robert Frances Group in Stamford, Conn.Rest of the StoryGet Firefox
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

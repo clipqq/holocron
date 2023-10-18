@@ -1,0 +1,75 @@
+Dexter Walks --
+
+26 Feb 2007This Valentine's Day I saw one of the most exciting things I've
+seen in my life: Trevor Blackwell's robot finally walked.   Dexter
+is, as far as we know, the first dynamically balancing biped 
+robot&mdash;that is, the first robot that walks like we do.
+There are of course biped robots that walk.  The Honda Asimo is the
+best known.  But the Asimo doesn't balance dynamically.  Its walk
+is preprogrammed; if you had it walk twice across the same space,
+it would put its feet down in exactly the same place the second
+time.  And of course the floor has to be hard and flat.Dynamically balancing&mdash;the way we walk&mdash;is much harder.  It looks
+fairly smooth when we do it, but it's really a controlled fall.  At
+any given moment you have to think (or at least, your body does)
+about which direction you're falling, and put your foot down in
+exactly the right place to push you in the direction you want to
+go.  Practice makes it seem easy to us, but it's a hard problem
+to solve.  Something as tall as a human becomes irretrievably off
+balance very rapidly.  When a robot is falling, meaning its center
+of gravity is not centered over the foot (or feet) on the ground,
+the error grows by e^(t/.5). If a robot gets more than a few
+centimeters off balance, it's unlikely to recover, because you just
+can't move the limbs fast enough to compensate.Trevor started working on this problem in May 2001, and it was not
+till February 2007 that he could even make Dexter lift one foot off
+the ground and put it down again without falling over.  In retrospect,
+I don't know what kept him going.  I talked to him constantly about
+this project as he was working on it, and I know for most of those
+six years he had no idea how he was going to solve the problem.
+This isn't like software: when a robot can't walk, you can't say
+for sure why not.The breakthrough, according to Trevor, was to dramatically improve
+the robot's sense of where its center of gravity was.  None of the
+commercial gyroscopes were good enough, he said, so he built his
+own.  It also helped to make the feet lighter.  The original feet,
+wearing heavy Doc Martens, were replaced by lighter ones outfitted
+with Vans.  (I'm not joking.)We were very excited when Dexter could lift a foot up without
+falling, because it meant walking was not far behind.  Y Combinator's
+west coast offices are within the building of Anybots, Trevor's
+robot company, so every Tuesday dinner we got to see a demo of
+whatever Trevor had made in the past week.  And on February 13th
+we saw something really dramatic: Dexter could walk a few steps
+forward without falling over.  I hung around the next day as well,
+because I had the feeling I was witnessing something historic.  On
+the morning of Valentine's Day, Dexter was walking so well that
+Trevor and Scott Wiley took the front off his rolling cage (which
+catches him when he falls) so that he'd have more room.  And by
+that night, Dexter was really walking.  The longest walk, which Dan
+Miller got on video, was over six feet.Now, a week later, Dexter is so good at walking that the limit on
+the length of his walks is the size of room he lives in.  Next step:
+a cage that can operate outdoors, so Trevor can take Dexter for a
+walk in the park.A dynamically balancing robot is really something to see.  You can't
+turn away from it. It's so shockingly anthropomorphic.  Because it
+walks like you do, you sense what it's feeling.  But of course it
+wasn't (just) for entertainment that Trevor built this thing.  Any
+robot for use in real world situations has to balance dynamically,
+because you can't predict what surface it would have to walk on.What makes Dexter all the more impressive is that Anybots consists
+of just three guys and a machine shop.  Basically it's PARC without
+Xerox.  Eventually they'll have to take outside money.  I tell
+Trevor that he should just find a big company to pay Anybots'
+operating costs in exchange for a license to use what they develop.
+Or they could go after government grants, or raise venture capital.
+One way or another, ten or twenty years from now you'll see robots
+like this walking around.AnybotsTrevor BlackwellDexter Jumps
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

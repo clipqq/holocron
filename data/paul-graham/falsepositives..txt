@@ -1,0 +1,59 @@
+Filters vs. Blacklists --
+
+September 2002The real test of any technique for eliminating spam is not how much spam
+you can stop, but how much spam you can stop without stopping a significant
+amount of  legitimate email.   
+That is, how do you design a defense against spam so
+that the error in the system is nearly all in the direction of false negatives
+rather than false positives?One great advantage of 
+Bayesian filtering is that it generates few false
+positives.  This
+is the main reason I prefer it to other antispam techniques, particularly
+blacklisting.Simply blocking mail from any server listed on a
+blacklist, as some ISPs do now, is in effect a clumsy form of filtering--
+one that generates a large number of false positives, and yet only
+catches a 
+small percentage 
+of spam.  Spammers seem to have
+little trouble staying a step ahead of blacklists.Blacklists have been around for years.  If they worked, we'd know by now.
+But according to a recent study, 
+the MAPS RBL, probably the best known
+blacklist, catches only 24% of spam, with 34% false
+positives.  It would take a conscious effort to write a content-based filter
+with performance that bad.Another advantage of filtering over blacklisting is that there is less
+potential for abuse.  Like other kinds of vigilantes, antispam vigilantes often 
+do more
+damage 
+than the problem they're fighting.  The ACLU, the Electronic Frontier
+Foundation, and Computer Professionals for Social Responsibility
+(among others) have all condemned 
+the practices of groups like MAPS.The problem is not just that these groups' methods are unethical.
+Their unethical methods are why their numbers are bad.  The worst
+of them will blacklist anyone who makes them mad
+enough, whether their server is a source of spam or not.  
+Obviously, this is not
+going to generate very good filtering performance.In effect, MAPS wastes most of its bullets on civilians.Bayesian filters, because they're just programs, don't take spam personally. 
+As a result, they make fewer mistakes.So if you want to fight spam, work on filters.  (Think globally, act locally.)
+This approach is not only more 
+effective, it's also less likely to turn you into a nut.I'm not saying it's a waste of time to keep track of spam sources.  But I do think
+that whether an email comes from a server on a list of (supposed) spam
+sources is just one piece of evidence among many, and probably fairly
+unimportant evidence compared to the content of the email.Ultimately, I think filters will put a stop to groups like MAPS.   They only
+have the power that they do because ISPs are desperate and feel
+they have no alternative.  If ISPs start to do content-based filtering, 
+or know that their users are, they won't have to rely on such crude
+methods much longer.More Info:Internet News: When Spam Policing Gets Out of ControlEFF: Statement Regarding Anti-Spam MeasuresNetwork World: The Spam PoliceZDNet: Spam: The Last CrusadeWhen Everything Was Spam to ISPCoalition Statement Against "Stealth Blocking"Slashdot: MAPS RBL is now CensorwareCNET: Canning Spam Without Eating Up Real Mail
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

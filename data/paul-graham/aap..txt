@@ -1,0 +1,42 @@
+Robert Morris: All About Programming --
+
+(When I asked Robert Morris to read a draft of "What Doesn't
+Seem Like Work?" he replied with his own story, which he has allowed
+me to publish.)My father tried to interest me in programming somewhat before
+high school; it didn't work, and I didn't continue then. My life was
+pretty aimless, and my father delivered some hard words about how boring
+my life was going to be.I re-started programming in early high school. I don't remember any
+gap between re-starting and total absorbtion. Programming was off the
+radar for nearly everyone at my high school, and was unrelated to
+studying, so the question of whether it was work never arose. Just as
+well considering how little effort I put into school. I mentally moved
+to Bell Labs, first because I was using their computers and software,
+then because I got a part-time job there in late high school.Because college acts as such a strong sorter, when I got there it was
+much more like Bell Labs than it was like high school. I spent time
+with people like Rich Draves, for whom programming was not work. CS
+wasn't the same as programming (I still remember my confusion and
+disappointment at a recursion theory seminar early freshman year), but
+it was close enough that I could get by.Even in college it took me a while to admit that it was all about
+programming. People at Bell Labs believed that CS was not serious,
+that one must study something with inherent value like math. Not
+wanting to look like a loser to the people I most admired, I was
+pretty late in admitting the obvious about math. Straightening myself
+out was tough, and I was not mentally flexible enough to keep in touch
+with the Bell Labs people after ignoring their advice.The idea that one should ask questions about one's own life (e.g. your
+"What seems like work...?") and act on the answers was completely alien
+to me in those days, and I doubt I could have absorbed any wisdom in
+this department.
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

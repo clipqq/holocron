@@ -1,0 +1,18 @@
+Errata --
+
+p. 55. Typo: "the the founding fathers".p. 214. Superscript 3 should not be there.p. 236. Extra paren at end of Goo code example.p. 242.  Extra "of the" in entry for Brooks's Hypothesis.
+Caught by Marcel Molina.
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

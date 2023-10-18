@@ -1,0 +1,109 @@
+Spam is Different --
+
+August 2002(I wrote this partly for computer people, to explain why spam doesn't
+have to be protected as free speech, and partly for direct marketers, a
+few of whom aren't yet quite clear about the difference between email
+and other forms of advertising.)Catalog companies send catalogs to potential new customers.  Spammers
+do the same thing with email.  What's the difference?  Why is it
+ok to send unsolicited catalogs, and not ok to send unsolicited emails?Some people say the difference with spam is that the cost of email
+is shared between the sender and the recipient.  The problem with
+spam, this argument goes, is that it's like sending a letter postage
+due.I don't think this is the real problem. If spammers did reimburse
+you the cost of the resources they used, would spam stop
+bothering you?I think the reason spam is unethical is that it disrupts your life.
+There are many different ways of reaching you with a message, 
+from printing it on a billboard you might see, to calling you on
+the phone.  Email is among the most intrusive, perhaps second only
+to telemarketing.  The problem is, email is also very cheap.  So
+it's not only more intrusive than getting a catalog in the mail,
+but you also tend to get far more of it.A lot of us depend on email now, and spam is a source of constant,
+annoying interruptions:
+1. Catalogs are so expensive to print and mail that catalog companies
+don't send them indiscriminately.  Spam is 
+so cheap to send that 
+there is pretty much no limit on the amount of it that you could
+get.2. Catalogs sit in a heap of the day's mail till you go and sort
+through it.  Spam arrives as an interruption, mixed in with your  
+ongoing conversations, at random times all through the day.  If
+you depend on email for your work, spam interrupts your work.3. Catalogs are often pleasing-- carefully designed, expensively
+produced, often full of things you covet.  Spams are cheap, sleazy
+messages offering things that you not only don't want, but often 
+would prefer not to know existed.
+
+Some forms of direct marketing are
+bearable or even pleasing, and are allowed to continue.  Others,
+like junk faxes or telemarketing with recorded messages, cause such
+inconvenience to the recipient that they end up being banned.Whatever the spammers may say about their free speech rights, free
+speech has always taken a back seat to freedom from unreasonable 
+annoyance.  Free speech doesn't give you the right to follow someone
+around, shouting at them.  When it inconveniences people beyond
+a certain point, speech is no longer protected.So if you are bothered by spam, you don't have to go looking for
+an economic argument to explain why it's wrong.  The fact that
+it disrupts your life is enough.  I know people who get hundreds  
+of spams per day.  At that point, without some kind of 
+filtering 
+software, email becomes practically unusable.I predict that as the 
+volume 
+of spam grows, there will be increasing
+legal and moral strictures against it.  Already I think that most
+legitimate direct marketers realize that there is a difference
+between sending catalogs to potential new customers, and sending
+email.There is a class of spammers, running what they call "opt-in"
+lists, who will try to convince you otherwise.  They claim that   
+they only send email to people who have asked to receive it.  In  
+fact, few to none of the people on their lists have consciously  
+asked to receive spam.  More likely, they imprudently typed their
+address into some Web site (perhaps to register for a contest or to send
+someone an electronic greeting card)
+without reading the fine print saying that their email address would be used by
+spammers.  Others may have had their address typed in for them by 
+"affiliates" of the list manager, whose official story is that
+they are unaware that this takes place.Opt-in spammers will claim that their lists must be clean, because
+the mail they send gives the recipient a way to "unsubscribe".  (I
+put that in quotes because the odds are the recipient never did
+knowingly subscribe.)  They must want to get this email if they
+don't unsubscribe, right?Well, no: the standard advice about how to deal with spam is never
+to click on unsubscribe links, because that tells the more unscrupulous
+spammers that you are a live target who actually read the mail,
+and you'll just get more spam than ever.  Naturally, the opt-in 
+spammers know this.  They know they can count on the recipients   
+not actually asking to be taken off their lists.  If they did, then 
+(without replenishment from whatever dubious sources) their lists
+would shrink down to nothing overnight.I can't imagine any external source of email addresses that
+it would be ethical to send unsolicited email to.  All along the   
+spectrum of spammers, from the true bottom-feeders who hijack open
+relays to send porn spams, to the so-called "opt-in" list managers,
+unsolicited email is unwelcome to nearly all its recipients--
+at best an annoying interruption, and at worst a blight that makes
+email unusable.One more thought experiment.  Suppose instead of getting a couple
+print catalogs a day, you got a hundred.  Suppose that they were
+handed to you in person by couriers who arrived at random times
+all through the day.  And finally suppose they were all just ugly
+photocopied sheets advertising pornography, diet drugs, and mortgages.If this was how print catalogs worked, they'd probably already be
+illegal by now.  What saves print catalogs, ironically, is their
+own cost.  There are plenty of companies that would send a courier
+to interrupt you with an offer to refinance your mortgage if they
+could afford to (the same ones that now send you spam),  but the
+response rate wouldn't justify the cost.Ultimately, it's the low cost of spam that's the root of the problem.
+While it's annoying to get a spam, the real problem is that you don't
+get just one, but hundreds or thousands.  Being stung by a bee is
+painful, but being stung by a swarm of bees is a problem of a
+different magnitude.  And, like bees, spam intrinsically comes in
+large quantities.That's the main reason it's unethical (and will one day I hope be
+illegal) to send unsolicited mass email.  Like telemarketing with
+recorded messages, it's so cheap that if one company can do it,
+ten thousand can, and email just stops working.Related:Raph Levien Re: Spam is DifferentRelative Cost of SpamAbuse.Net: Help for Marketers
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

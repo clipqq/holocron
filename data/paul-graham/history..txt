@@ -1,0 +1,48 @@
+Fortran I --
+
+
+To give you some idea of the state of the art when Lisp
+was invented, these two images are taken from the first Fortran
+manual, published in October 1956. Fortran was not 
+then called a programming language; the manual describes
+"The FORTRAN Automatic Coding System for the IBM 704 EDPM."*What was automatic about it was that you didn't have
+to write machine language.  The FORTRAN system
+would do it for you.I have heard that the inventors of Fortran did not initially expect
+the same language to be used on different types of 
+computers, or to have multiple languages available for
+the same computer.  Each computer would have its own
+"automatic coding system" (since they would
+each have their own instruction sets) and this was to be the 704's.Fortran I was very simple.  Programs were flat: the language
+does not seem to have supported
+subroutines or nested expressions.  The Fortran if
+was a conditional goto.
+It was partly to overcome these limitation that
+McCarthy
+developed Lisp.
+The statement for reading
+in a stack of cards is impressively terse.
+Reminds one of Perl.  (Common) Lisp is embarrassingly 
+inferior here.The mysterious Frequency statement is optimization advice to
+the compiler about the likely outcomes of conditionals.
+It apparently proved useless and
+was dropped from the language in Fortran II.Sample Fortran ProgramFortran Statements
+* An EDPM I would guess to be an Electronic Data Processing Machine,
+or Computer.  It is an IBM tradition to make up cryptic
+acronyms for common things.  Disks still seem to be called DASDs 
+(Direct Access Storage Devices) at IBM.
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

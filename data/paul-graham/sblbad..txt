@@ -1,0 +1,43 @@
+SBL Going Bad? --
+
+Server blacklists tend to go bad, because the power they confer
+corrupts the people running them.  They turn into vigilantes 
+and start blacklisting innocent
+servers.The most notorious example is the MAPS RBL.  
+I used to 
+recommend Spamhaus's SBL
+as an alternative, but it seems even this
+previously upstanding service is going the way of other blacklists.This email I received recently sounds eerily familiar:
+
+You described the Spamhaus SBL as 
+"responsible". I beg to differ. I recently noticed that my IP range, ----, 
+was blacklisted on the Spamhaus SBL. I inquired as to the reason for 
+that, and they informed me that my data center, ----, had hosted 
+some spammers in the past. Their entire network, subnet mask ----, 
+is blacklisted. I explained to them that while I can't vouch for the 
+rigor with which ----'s AUP is enforced, that I am innocent in the 
+matter, and requested that my four IPs be whitelisted. I got back 
+a rather rude response along the lines of "no we won't, because 
+it's your fault for using an ISP that tolerates spam". I don't find 
+that answer terribly responsible. 
+
+This is bad news, not just for the SBL but for the whole idea of
+blacklists.  The SBL was started 
+with the explicit aim of avoiding the kinds of abuses that
+had tainted other blacklists.  So if even they are going the
+way of the MAPS RBL, one has to assume that every blacklist will,
+eventually.
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

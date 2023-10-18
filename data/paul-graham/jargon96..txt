@@ -1,0 +1,40 @@
+Jargon File Entry --
+
+
+(This entry from the Jargon File, which later became the 
+Hackers' Dictionary, originally dates from the mid-80s.
+The first versions of the Jargon File didn't have an entry
+for Lisp, because it was assumed that every hacker knew what
+it was.):LISP: /n./  [from `LISt Processing language', but mythically
+   from `Lots of Irritating Superfluous Parentheses'] AI's mother
+   tongue, a language based on the ideas of (a) variable-length lists
+   and trees as fundamental data types, and (b) the interpretation of
+   code as data and vice-versa.  Invented by John McCarthy at MIT in
+   the late 1950s, it is actually older than any other  still
+   in use except FORTRAN.  Accordingly, it has undergone considerable
+   adaptive radiation over the years; modern variants are quite
+   different in detail from the original LISP 1.5.  The dominant HLL
+   among hackers until the early 1980s, LISP now shares the throne
+   with .  See .All LISP functions and programs are expressions that return
+   values; this, together with the high memory utilization of LISPs,
+   gave rise to Alan Perlis's famous quip (itself a take on an Oscar
+   Wilde quote) that "LISP programmers know the value of everything
+   and the cost of nothing".One significant application for LISP has been as a proof by example
+   that most newer languages, such as  and , are full
+   of unnecessary s.  When the  has already
+   been done once, there is no justification for  in newer
+   languages.
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

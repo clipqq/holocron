@@ -1,0 +1,22 @@
+One Specific Idea --
+
+I got this email from one of the partners in Y Combinator.
+So if you're good at this sort of thing and want to propose
+to work on it in our next funding round, you'd have a good 
+chance of being accepted.
+I just got a Motorola RAZR, a nice cell phone with about the same features as most small phones. It has a web/wap browser, a Java VM, can send/receive text messages and (sort of) e-mail, and a 170x220 pixel color display. Each feature works pretty well by itself. But the overall feeling is like DOS, or the Mac before multi-finder. 
+That is, to send a Yahoo Messenger msg, I have to laboriously select and start a Java app, which basically takes over the phone, wait for it to make network connections &c, then send my message. As long as I run that Java app, and do nothing else, maybe I can receive a Yahoo Messenger message too. If I want to browse the web, or even initiate a phone call, I have to quit the ymessenger app and fire up some other mode. Also the phone doesn't take any advantage of always-available Internet access, it doesn't for example know how to synchronize calendar, phone book, &c. Little progress has been made in the five years since my previous phone was designed and now.So I'm hoping for a WFP proposal for a cell phone O/S or interface that doesn't suck. It's not out of the question: there are some semi-open phone platforms that can run Linux.
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+Filtering Research --
+
+SpamCop: A Spam Classification & Organization ProgramA Bayesian Approach to Filtering Junk E-mailAn Evaluation of Naive Bayesian Anti-Spam FilteringNaive Bayes vs. Rule Learning in Classification of EmailFiltering Junk E-Mail: A Performance Comparison between Genetic Programming & Naive Bayesifile: An Application of Machine Learning to E-mail FilteringAn Empirical Study of the Naive Bayes ClassifierBoosting Trees for Anti-Spam Email FilteringGauging Similarity via N-GramsBagging and BoostingAdaBoostCentroid-Based Document ClassificationLanguage Trees and ZippingBayesian WhitelistingAn Introduction to Latent Semantic AnalysisISBAWUSTL Bayes LinksATC BibliographyBibliography on Machine Learning for Spam Detection
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

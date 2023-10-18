@@ -1,0 +1,40 @@
+CRM114 gets 99.87% --
+
+(Bill Yerazunis' CRM114 
+has the best spam filtering performance I've
+heard of to date and deserves to be better known.  According to this email,
+which Bill has allowed me to reprint, CRM114 now achieves 99.87% accuracy.
+This level of performance is more evidence that probabilistic,
+content-based filters are the answer to spam.)Date: Wed, 16 Oct 2002 10:07:10 -0400
+From: Bill YerazunisThe current statistics for CRM114's sparse binary polynomial hashes
+ are in. Over the last two weeks it's managed a reasonably enviable
+ 99.87% accuracy.Details: 2374 fresh-from-the-wild incoming messages, 1518 spam and 856
+ nonspam yielded only three errors.  All classification was done via
+ the sparse binary polynomial hash classifier system, no blacklists or
+ whitelists used, training set approximately 250Kbytes.  If I'd turned
+ on the whitelists and blacklists, it would have been one error instead
+ of three, for a 99.96% accuracy, but as we consider blacklists (even
+ of known spamhausen) to be "cheating", I'm running without them.The worst-case margin of error on that result is +-0.16%, as that's the
+ measured error rate of _me_ distinguishing spam from nonspam.  (I
+ manually classified the same set of 1900 messages twice, and found
+ three errors in my own classifications, hence I have a 99.84% success
+ rate.)With an accuracy of 99.87% for CRM114 versus my own rate of 99.84%, I
+ conclude that CRM114 is "better than human", or at least better than
+ its creator when confronted with 3800 decisions to make.Date: Wed, 16 Oct 2002 14:26:46 -0400
+From: Bill Yerazunis[The three errors were] one false reject, two false accepts, if I recall correctly.But only one of the false accepts was from an unknown source, and the
+ false reject was from a known-good source, so the black/whitelist 
+ would have caught it, and it would still be a 99.96% accurate system.More Info:Bill YerazunisCRM114Plan for Spam
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

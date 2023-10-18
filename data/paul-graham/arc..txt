@@ -1,0 +1,40 @@
+Arc --
+
+Arc is a new dialect of Lisp we're working on.   You can 
+find an early release and ask questions at 
+arclanguage.org.
+The Arc community is very newbie-friendly,
+because all the users are newbies to some extent.To get an idea of where we eventually hope to take Arc,
+see Being Popular
+and The Hundred-Year Language.
+Hacker
+News, which is written entirely in Arc, including the http
+server.  Among other things this allowed us to add a read-eval-print
+loop (which I obviously can't link to) that we can use to modify
+the server as it's running, without restarting it.When we release something, we'll set up a server where you'll be able to 
+get an Arc toplevel through Web forms.
+Anyone who wants to try Arc will be able to see the latest version
+without having to download or install anything.
+If you'd like to try Arc, send an email to tryarc@paulgraham.com
+and we'll notify you when there is something online to experiment with.When will that be?  We have no idea.  We reserve the right to take a
+very long time.  It's been almost 50 years since
+McCarthy first described Lisp.  
+Another 2 or 3 aren't going to kill
+anyone. So please don't send us mail asking what
+Arc's status is or when it will be done.
+(When it's done, we'll tell you.)
+--ForumTutorialGet ArcArc's OutTake the Arc ChallengeFirst Priority: Core LanguageArc FAQHelp UsDesign PhilosophyWhy Arc Isn't Especially Object-OrientedLFM and LFSPIdeas People Have Sent UsOld Arc Stuff
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

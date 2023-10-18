@@ -1,0 +1,17 @@
+People --
+
+Hal AbelsonPaulo AmorosoMarco AntoniottiHenry BakerJonathan BachrachRodney BrooksDaniel BarlowChristopher BrowneG. J. ChaitinBill ClementsonWilliam ClingerRoger CormanMartin CracauerL. Peter DeutschChris DoubleScott FahlmanRichard FatemanMatthias FelleisenDaniel FriedmanRichard GabrielPhil GreenspunEric GrimsonPaul HaahrTim HickeyAubrey JafferShiro KawaiMark KantrowitzShriram KrishnamurthiJohn McCarthyDrew McDermottRob MacLachlanJ. Strother MooreErik NaggumPeter NorvigKent PitmanChristian QueinnecJonathan ReesDave RobertsOlin ShiversDorai SitaramRichard StallmanW. Richard StarkGreg SullivanGerry SussmanCarolyn TalcottMitchell WandDick WatersJohn WisemanPlanet Lisp
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

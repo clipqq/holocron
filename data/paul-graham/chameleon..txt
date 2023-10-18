@@ -1,0 +1,49 @@
+Lisp is a Chameleon --
+
+(This is an excerpt from the influential article by John Foderaro
+in the September 1991 Communications of the ACM.)Lisp is a chameleon.  It has survived by adapting
+to changes in its surroundings.  Moreover, Lisp has
+actually thrived on changes.  When structured programming
+became popular in the 1970s, Lisp users immediately
+experimented with new structured control forms and
+the best ones were adopted as part of Lisp.
+Fortran programmers could only simulate structured
+constructs by enforcing a discipline on the use of
+goto statements.Object-oriented programming (OOP) was another
+idea that spread through the community several years
+ago.  The Smalltalk language demonstrated that OOP
+was a very useful approach for software development.
+Many versions of Lisp added OOP through the addition
+of an object system called Flavors, which went beyond
+Smalltalk and included multiple inheritance and 
+method combination.  Flavors added OOP to Lisp in a very
+natural way, without upsetting existing programs....When Lisp adopts a new paradigm it not only replicates
+existing practice, but goes beyond it to become a
+testbed for advancing the state of the art.  Why
+has Lisp been able to adapt so easily when other
+languages have not?  One reason is that Lisp is
+a programmable programming language.  Not
+only can you program in Lisp (that makes it
+a programming language) but you can program the
+language itself.  This is possible, in part, because
+Lisp programs are represented as Lisp data objects,
+and partly because there are places during the scanning,
+compiling and execution of Lisp programs where user-written
+programs are given control.  Contrast this with the
+C compiler, where the only user input to the compilation
+process is the ability to define macros that do simple
+string transformations on the source code.
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

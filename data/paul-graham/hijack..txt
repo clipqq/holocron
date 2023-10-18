@@ -1,0 +1,50 @@
+Hijacking is Buffer Overflow --
+
+September 2001If you want to defend against hijackings, the problem you're trying to 
+solve is one that programmers know well: the buffer overflow
+attack.In a buffer overflow attack, someone gives a program much
+more data than it was expecting.  The data is too long
+for the memory allocated for it and overflows
+into the memory occupied by the program itself.  
+Suddenly the computer is running the attacker's code.In a hijacking, the same thing happens to a plane.  A plane
+has two separate spaces, one for the people carried on it,
+and one for the people who control it.  A hijacking happens
+when passengers overflow into the cockpit from the cabin.
+What was cargo is now in control.  By promoting themselves
+from data to code, hijackers on September 11th promoted
+box-cutters into 400,000 lb. incendiary bombs.How do programmers solve the problem?  There are two defenses,
+one that works and one that doesn't.The defense that doesn't work is to check the data on the way in, 
+to make sure it isn't longer than the memory set aside for it.
+The problem here is that you might forget to check, or do
+it incorrectly.  And in fact this happens all the time.
+Everyone has known about buffer overflow
+for at least 15 years, and still software gets written that is
+vulnerable to it.The defense that does work is to keep code and data in 
+separate places.  Then there is no way to compromise code by
+playing tricks with data.  Garbage-collected languages like
+Perl and Lisp do this, and as a result are immune
+from buffer overflow attacks.To programmers, at least, this would suggest that the most
+reliable way to prevent hijackings is to separate the   
+cockpit from the cabin.  You still need to watch who gets
+on the plane, to prevent people from simply blowing it
+up.  But as long as you keep passengers out of the cockpit
+you can prevent anyone taking control of the plane.It might be enough
+just to keep the cockpit door locked, and make it strong
+enough that to get through it you'd need something harder
+to smuggle onboard a plane than a box-cutter.I'm sure the government is working on the problem.  I just
+hope they understand as well as we do that it is never
+enough just to check what comes in.
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

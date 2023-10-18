@@ -1,0 +1,50 @@
+The Syntax Question --
+
+(Guy Steele and Richard Gabriel on a question that I predict
+will arise more and more, though from the other direction, as 
+mainstream languages approach Lisp.)The idea of introducing Algol-like syntax into Lisp keeps popping up
+                      and has seldom failed to create enormous controversy between those who
+                      find the universal use of S-expressions a technical advantage (and
+                      don't mind the admitted relative clumsiness of S-expressions for
+                      numerical expressions) and those who are certain that algebraic syntax
+                      is more concise, more convenient, or even more natural (whatever
+                      that may mean, considering that all these notations are artificial).We conjecture that Algol-style syntax has not really caught on in the
+                      Lisp community as a whole for two reasons.  First, there are not
+                      enough special symbols to go around.  When your domain of discourse is
+                      limited to numbers or characters, there are only so many operations of
+                      interest, so it is not difficult to assign one special character to
+                      each and be done with it.  But Lisp has a much richer domain of
+                      discourse, and a Lisp programmer often approaches an application as
+                      yet another exercise in language design; the style typically involves
+                      designing new data structures and new functions to operate on
+                      them-- perhaps dozens or hundreds-- and it's too hard to invent that
+                      many distinct symbols (though the APL community certainly has tried).
+                      Ultimately one must always fall back on a general function-call
+                      notation; it's just that Lisp programmers don't wait until they fail.Second, and perhaps more important, Algol-style syntax makes programs
+                      look less like the data structures used to represent them.  In a
+                      culture where the ability to manipulate representations of programs is
+                      a central paradigm, a notation that distances the appearance of a
+                      program from the appearance of its representation as data is not
+                      likely to be warmly received (and this was, and is, one of the
+                      principal objections to the inclusion of loop in Common Lisp).On the other hand, precisely because Lisp makes it easy to play with
+                      program representations, it is always easy for the novice to
+                      experiment with alternative notations.  Therefore we expect future
+                      generations of Lisp programmers to continue to reinvent Algol-style
+                      syntax for Lisp, over and over and over again, and we are equally
+                      confident that they will continue, after an initial period of
+                      infatuation, to reject it.  (Perhaps this process should be regarded
+                      as a rite of passage for Lisp hackers.)- Steele and Gabriel, "The Evolution of Lisp"
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,128 @@
+Interview About Web 2.0 --
+
+July 2006(Ian Delaney wanted to interview me for his new 
+book.  I agreed if I could
+post the answers online.)1. What have we learned from the dotcom bubble? (Or, what should
+we have learned?)One thing people learned from the Bubble is to judge
+startups more critically.  Some really bad ideas got funded 
+then.  And the investors weren't the only ones who got burned.
+The people who went to work for those companies did too.  Now
+everyone is more cautious.This is not to say we should only consider companies with
+detailed plans for making money.  That's being too cautious.  If
+you create a web-based startup that becomes massively popular, you
+can probably figure out a way to make money from it.  Just about
+every massively popular site has.The idea of building something popular then figuring out how to
+make money from it was born in the Bubble.  It sounds
+irresponsible, but it works.  Requiring founders to have a carefully
+worked out plan for making money is not hard-headed business sense.
+It's what hackers call "premature optimization."  The really important
+thing is to make something people want.Most startups that failed during the Bubble failed because no one
+wanted what they built.  There may also have been a few that were
+building something good, but failed because they burned through
+their funding too fast.  So that's rule number two: don't spend
+money.If you can make something people want and not spend money, you're
+90% of the way there.I don't mean to imply the business part is trivial.  It's
+just easy compared to making something people want, because that's
+so hard.2. What has led to the current flurry of Internet startups?I think the present startup boom has a couple causes.  One is simply
+that the bust wore off.  The Internet represents a big
+change, comparable to the arrival of steam engines.  It's natural
+for people to be excited about it, now that the post-Bubble depression
+has worn off.Another factor is Google.  Google got people interested in the Web
+again, and not just because of their IPO.  They've collected a lot
+of smart people there, and they radiate excitement to everyone else.Startups will be ever more common because they're now so cheap to
+start.  In most of the startups we fund, the biggest expense in the
+first year is simply food and rent.  It costs little more to start
+a startup than to hang around doing nothing.  And instead of having
+to go work in a cubicle in some office park, you get to work with
+your friends on your own project.  If you succeed, you get rich.
+Altogether it's a pretty attractive prospect to someone in their
+twenties.3. Do you think "Web 2.0" is a real thing or a convenient label for
+some heterogeneous phenomena?"Web 2.0" is a weird phrase.  It began as the name of a conference,
+but the people organizing the conference didn't really know what
+they meant by it.  Mostly they thought it sounded catchy.  However,
+"Web 2.0" has since taken on a meaning.  There are some interesting
+new trends on the Web, and it's the nature of a phrase like that
+to adhere to them.It's kind of like they printed the name on a sticky label, threw
+it on the floor, and it stuck on the heel of a guy passing by.  The
+name is a little fake, but the guy is real.4. Opinions I have garnered range from "the Internet has been given
+back to the people" to "there is absolutely nothing here that is
+new."  Where do you stand?I think there are genuinely new things happening on the Internet.
+It would be strange if there weren't.  There are new things happening
+in every area of technology.  A lot of smart people are working on
+Internet stuff now, so of course they're coming up with new ideas.A lot is different now from 1998.  Web sites look different.  Startups
+operate differently.  People use the Web in different ways.  The
+changes were gradual, but if you have a gradual change of sufficient
+magnitude, it starts to become a different world.5. What do you look for in a web startup that will persuade you to
+invest in them?We look for two things in startup founders: brains and commitment.
+One thing we've learned in this past year is that commitment matters
+more than we thought, and brains less.  The founders can't be
+stupid, but as long as they're over a certain threshold, the most
+important thing is commitment.A sense of design is also a big advantage.  Big companies treat
+design almost as if you could paint it on after the fact.
+Even Google has this problem; their biggest weakness is that
+their definition of a hacker doesn't include a big enough
+design component.  A hacker with design sense is really dangerous,
+especially as a startup founder.We don't care too much about the initial idea, except as evidence
+of brains and commitment.  The idea will change.  What matters most
+is that the founders really want to do a startup.The good news is, a group of founders who are reasonably bright and
+super committed have a significant chance of succeeding.  It's so
+cheap to start a startup that you have time now to succeed through
+sheer will.  You don't have to get it right the first time.  You
+can go through several iterations.6. Spending on Internet advertising is anticipated to increase
+dramatically.  Will the "long tail" profit from this?To make money from advertising you either
+have to have your own plan for selling ads, or use
+something like AdSense.  Unfortunately, AdSense's current keyword-based
+model doesn't fit with all startups.  But that kind of revenue might
+help a little, in the earliest phase.  It might not be enough to
+make a startup profitable, but it could be enough to stretch out
+their initial funding, and thus buy more time.7. There's a lot of hype surrounding current trends.  Are these
+bubble conditions?No, I don't think this is a bubble.  The companies the VCs are
+investing in now are nowhere near as laughable as the ones they
+were funding in 1999.  A lot of those seemed like deliberate parodies.Certainly there is a lot of hype.  For example, there are a lot of
+sites using cheesy "Web 2.0" design elements to seem cool.  All
+those fades and "Betas" and giant fonts are going to look very dated
+in a few years.  But cheesy design doesn't make a bubble.  The
+measure of a bubble is investment, and that's still under control.8. What ideas/values/approaches do you think will be permanent
+changes from Web 2.0 to whatever Web 3.0 brings?I doubt there will be such a thing
+as Web 3.0.  I think so many people will use the phrase
+"Web 3.0" for their pet theory about the future of the Web that it
+will lose all credibility, and by the time there's a change big
+enough to warrant a name like that, no one will want to use it.
+"Web 2.0" is already close to the edge of credibility.  Few people
+I know can bring themselves to use it seriously.  "Web 3.0" is
+probably already dead.But as for the underlying question, yes, there are definitely trends
+I think will be permanent.  One is the increasing focus on
+users.  There are a couple promising variants.  The most obvious
+are the social networking sites, which are entirely about the users.
+But there are also subtler variants-- news sites where the top
+stories are determined by voting, like Digg and Reddit, and sites
+where people post their own stuff, like Blogger and now YouTube.
+This "stuff" is presently called "user-generated content" but if
+it becomes the default it will probably get a shorter name.Another trend that's here to stay is web-based software.  This
+began in the nineties, but you can do so much more now that everyone
+can see it's the future-- even Microsoft.  I think in twenty
+years most of the software people use will be running on servers.There's also a social trend that will last: the startup world will increasingly
+be ruled by technical people rather than business people.  As in
+so many other areas, Google is the pattern for the future.  The
+hackers dominate Google, and that's why Google wins.A lot of the most characteristically lame startups of the Bubble
+were that way because they were started by business guys, who then
+went looking for hackers to implement their ideas.  That model may
+have worked in 1960, but it didn't work so well in 1998, and it
+gets more obsolete every year.  I think the future belongs to the
+hackers.  Technology is an ever larger component of business, so
+of course power is shifting to the people who are experts in that,
+rather than management or finance.Japanese TranslationUkranian Translation
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

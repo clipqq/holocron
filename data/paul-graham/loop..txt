@@ -1,0 +1,57 @@
+Dan Weinreb: Loop --
+
+(Replying to a reference to Waters' series macros on the LL1 mailing
+list, Dan Weinreb, one of the designers of Common Lisp, writes about the 
+Loop macro.  I consider Loop one of the worst flaws in CL, and an
+example to be borne in mind by both macro writers and language designers.)This was the big competitor to LOOP, back in roughly maybe
+ 1978-1979 when we all wanted to generalize and extend Maclisp's
+ "new style DO".  Each approach had its own merits and demerits.
+ I think probably we in the LOOP camp were insufficiently sympathetic
+ to the merits of Waters's approach, possibly because we were
+ not experienced with lexical scoping, although also because
+ there really were a few things that it didn't do as well as
+ LOOP.LOOP, by the way, is one of the few cases of a macro in which
+ we deliberately violated one of the (excellent!) rules that Scott McKay
+ enumerated recently on this list.  Namely, we ("what you mean we?",
+ really Dave Moon, but others of us were egging him on, so to speak)
+ decided to violate the usual stricture that a Lisp special form
+ should only have a symbol as the first element of the list, and
+ that subsequent "syntax" within the special form should be done
+ entirely in terms of the nested list structure.After all, we
+ were the ones who had introduced keyword arguments into Lisp.
+ Those were symbols used at runtime in a sort of syntactic way.
+ Here we went the next step further and used symbols at "compile
+ time", i.e. statically, i.e. syntactically (e.g. you did not
+ have to use QUOTE), as keywords.  So we created one of the first
+ Lisp special forms to be keyword-oriented, and I think it may
+ be the only such special form that was accepted in Common Lisp.(And it was only accepted after very bloody battles were fought,
+ as Guy Steele knows better than anyone else, since he was the
+ referee of those battles!)LOOP was not as much of a success as we had hoped.  To this day
+ I firmly stick by our decision to use keywords.  All rules have
+ their exceptions, and this was a case where the benefit of using
+ keywords outweighed the cost of using unusual syntax.  The use
+ of keywords is NOT what was wrong with LOOP.Rather, the problem with LOOP was that it turned out to be
+ hard to predict what it would do, when you started using a
+ lot of different facets of LOOP all together.  This is a
+ serious problem since the whole idea of LOOP was to let you
+ use many facets together; if you're not doing that, LOOP
+ is overkill.  Moon struggled hard to make LOOP more predictable
+ and understandable.  Even at the time I did not fully comprehend
+ all the issues; now, over 20 years later, I've almost forgotten
+ them.  But if Dave Moon could not figure out how to solve the
+ problem, I am quite confident that it's a very hard problem to
+ solve.
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

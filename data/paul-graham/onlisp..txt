@@ -1,0 +1,42 @@
+On Lisp --
+
+On Lisp is a comprehensive study of advanced Lisp
+techniques, with bottom-up programming as the unifying theme.
+It gives the first complete description of macros and
+macro applications.  The book also covers important
+subjects related to bottom-up programming, including
+and embedded languages.
+The final chapter takes a deeper look at object-oriented
+programming than previous Lisp books, showing the step-by-step
+construction of a working model of the Common Lisp Object System
+(CLOS).As well as an indispensable reference, On Lisp is a
+source of software.  Its examples form a library of functions
+and macros that readers will be able to use in their own
+Lisp programs.Prentice Hall, 1993, 432 pages, paperback.  ISBN 0130305529.New: Download it for free."The first book that really explains what Lisp is all about."- John Foderaro, Franz Inc."On Lisp draws the reader in from the very first sentence.
+The author's writing style is clear and articulate,
+but comfortably informal.  The subject matter is important,
+and has not been adequately treated
+in previous books.  The chapters on macros present important
+material that is virtually unique to this book.The chapter on object-oriented programming is excellent.
+The author builds a nice mini-CLOS to teach basic object-oriented
+techniques, but then wisely switches to real CLOS to cover the
+more advanced topics."- David Touretzky, Carnegie-Mellon University"An excellent description of the real essence of Lisp."- Thomas Cheatham, Harvard University"As with his other book, ANSI Common Lisp, Graham writes 
+in a fluid style that is a pleasure to read."- Amazon.Com"The topics On Lisp covers are extremely useful for any seriously
+aspiring Lisp programmer.  I think it's a great idea to collect in one
+place programming techniques normally attainable only the hard
+way. The examples, which are plentiful and excellent, are one of
+the significant strengths of the book."- Skona Brittain, Developer of NanoLispDownloadAmazonCodeErrataCall for Bugs
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

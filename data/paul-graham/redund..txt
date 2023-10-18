@@ -1,0 +1,64 @@
+Kragen Sitaker: Redundancy and Power --
+
+It has been proposed that 
+succinctness is power.  I have some sympathy
+ with this view; if "power" means anything when we are talking about
+ programming languages, a more powerful language is one that can do
+ more with the same human effort.  Human effort in programming--
+ design, comprehension, construction, and debugging-- correlates
+ closely with the amount of source text, so in general, less verbose
+ programs require less effort.Still, other things affect the effort required, too; some are
+ linguistic, others are not.For example, good error reporting drastically decreases the time
+ required to find and fix problems.  This matters in proportion to the
+ number of errors you make and how good you are at guessing about their
+ causes-- novices make a lot of errors and can't guess, while
+ superprogrammers make few and can be pretty good at guessing.Error reporting depends crucially on redundancy.  Knuth has said [0]
+ TeX would be easier to program in if it had more redundancy in the
+ language.  Perl eliminates most redundant data-type conversions--
+ programs are more succinct, but errors are easier.  (In one Perl
+ program, I had a list of LIST references comprising a two-dimensional
+ array of numbers.  A loop over this list incorrectly referred to
+ $list[$i] rather than $list[$i][$j], and so my program happily
+ multiplied memory addresses by integers and got astronomical, and
+ wrong, answers.)  Languages with different kinds of end tags, like Ada
+ and XML, can usually tell you exactly which end tag you left out or
+ inserted one extra of; languages that use only right parens cannot.The greater the probability a random string is a valid program, the
+ harder it is to report errors well.Type-checking depends on redundancy; if any operator can be applied to
+ any type, as in Forth, your only indication of type errors will be
+ your incorrect answers or crashes, while if types are only checked by
+ primitive operations, the error may be reported a long way from where
+ the type error occurs.  When I pass a value of the wrong type to a
+ Python library, the ensuing error message often takes a bit of
+ noodling to connect with my own code.Redundancy, of course, reduces succinctness.Another sink of effort is looking things up in manuals.  I have to
+ spend a lot of time looking things up when I work in Python; I can
+ rarely remember the argument sequence for re.sub(), for example,
+ while Perl's more idiosyncratic syntax is easier to remember.  No
+ doubt I would find it much easier to remember argument order for
+ Smalltalk methods.pydoc helps a lot; just being able to type 'pydoc re.sub' instead of
+ navigating through the HTML manuals is a big help.  Having pydoc
+ access from Emacs while I was editing Python programs would help even
+ more; Emacs has supported that kind of thing in C for a long time with
+ M-x man.Joel Spolsky, a fan of Microsoft's development environments, recently
+ pointed out [1] that static typing allows syntax-directed editors to
+ prompt you with method signatures, which Microsoft's development
+ environments actually do.  Lisp development environments can do this
+ (Emacs ilisp-mode will do the same with C-c a or eldoc-mode) but it
+ would be very difficult for Python environments.[0] Interview: Donald E. Knuth
+on advogato, 2000-01-25.[1] Joel on Software from 
+2002-04-25, talking about "SOAP backlash".  Unfortunately, Joel is
+ so provincial that he doesn't know how to spell "dynamic typing",
+ spelling it "variants".
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

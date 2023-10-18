@@ -1,0 +1,28 @@
+Value Levers at Megacorp --
+
+(A hacker friend of mine recently heard a talk by an executive at
+a giant corporation, and his reaction was so funny that I had to 
+preserve it.  The company's name has of course been changed.)Hey Paul,I just heard a presentation by a woman who is the "Chief Engineer" at 
+Megacorp about how Megacorp does business, and I couldn't believe it! You 
+often write about practices inside big corporations, but this is my 
+first even indirect experience with that. Here are some of the 
+quotations or near-quotations I wrote down:"value levers""structured phase gate approach""Lean Six Sigma""mistake-proofing""it's a stage-gate execution process with a focus on the value chain""medium impact to in-process and results metrics and Business Case. 
+Decision Team discretion for phase exit""TTM, LSS and DfLSS work together . . .""All problems are business problems - engineers need to think like 
+business people."The best part, though, was the summary at the end, when she claimed 
+that all of the appalling processes she had talked about for an hour 
+and a half (using 52 PowerPoint slides) showed "respect for the 
+intelligence of the individual."Is this for real? How could anyone possibly endure this at Megacorp?
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

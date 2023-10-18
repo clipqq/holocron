@@ -1,0 +1,246 @@
+Labels --
+
+January 2004A friend asked me to give some examples of labels
+used to suppress ideas.
+I started searching, and the list grew and grew.Most of the terms listed below were found online, in laws, 
+regulations, acceptable use policies,
+the codes of conduct of schools, universities, businesses, and
+government agencies, descriptions of web filter criteria, and articles
+about censorship.  
+It was depressing reading,
+rather like all the spams I used to read before I tried
+writing statistical filters.
+I've tried to include every label used to criticize statements
+in the past 100 years
+except truly neutral ones like false, untrue, mistaken, etc.
+So there are of course contradictions.  For example, some web filters 
+forbid access to web sites mentioning homosexuality, whereas many university 
+speech codes forbid remarks critical of it.I've only included labels used in the English-speaking world, which
+unfortunately excludes the marvellous efflorescence in 
+the Soviet Union and China during the twentieth century.The most interesting thing I found was the 
+Hays Code, 
+which  controlled the American movie industry from 1930 to 1966.
+What a piece of work.  I had no idea that it
+forbade, for example, the depiction of racially mixed couples.Another surprise: I found these labels included some words that I
+myself use: "unscientific", for example.  
+Is it wrong to call something unscientific?  I think it can be.
+Labels are lazy.  It is not enough merely to label an idea as
+unscientific, or any of the other terms below.  One ought to
+provide more detail.If you made a graph representing which of these words occurred
+together, I think you'd find the central node was the one 
+representing "inappropriate".  That seems the most general (and thus
+least meaningful) label at the moment. As far as I can tell,
+it is little more than a five-syllable synonym for "bad".
+ableist
+abnormal
+abusive
+adult
+age-inappropriate
+ageist
+aggressive
+annoying
+anti-arab  
+anti-black
+anti-disability  
+anti-gay  
+anti-intellectual
+anti-semitic
+atheistic   
+biased
+bigoted   
+blasphemous 
+bourgeois 
+classist  
+coarse
+communist  
+corrupting
+critical   
+crude
+dangerous   
+degenerate 
+degrading   
+defamatory
+defeatist
+demeaning   
+derogatory
+destructive
+deviant   
+dirty  
+disabilist  
+discriminatory
+disgusting  
+disloyal
+disrespectful
+disruptive
+distasteful
+disturbing
+divisive 
+elitist 
+ethnocentric
+erotic
+eurocentric  
+exclusionary
+explicit
+extremist
+fascist
+fifth columnist
+filthy
+frivolous  
+foul
+gay
+genderist  
+graphic  
+gross
+harmful
+harrassing
+hateful
+hate-ist
+heterosexist
+holocaust-denying
+homophobic
+homosexual
+hostile  
+hurtful
+illegal
+immodest
+immoral
+impertinent
+impious    
+impolite  
+improper
+impure    
+in bad taste
+inappropriate
+indecent    
+indecorous
+indelicate
+inflammatory
+insensitive
+insulting 
+intimidating
+intolerant 
+irregular 
+irreverent 
+judgemental
+lecherous
+lesbian
+lesbophobic
+lewd
+libellous 
+licentious  
+lookist   
+low
+lubricious
+lustful
+malicious   
+menacing
+militant    
+misogynistic
+mocking
+morbid
+nationalistic
+nazi
+negative
+objectifying
+objectionable 
+obscene 
+off-color   
+offensive
+orientalist  
+out of line 
+patriarchal
+perverted
+phallocentric
+pornographic
+prejudiced 
+profane
+provocative
+prurient 
+questionable
+racial
+racially insensitive
+racist 
+radical 
+reactionary 
+revisionist
+risque
+rude
+sacrilegious
+salacious
+satanic
+scandalous
+scatalogical
+scurrilous
+selfish
+sexist
+sexual     
+sexually explicit
+sexually oriented
+shameful  
+sinful
+sizeist
+slanderous  
+smutty
+speciesist
+stereotyping
+subversive
+suggestive
+supremacist 
+tactless   
+tasteless 
+threatening
+treasonous 
+unacceptable
+unamerican 
+unauthorized
+unbecoming
+uncalled-for
+unchaste  
+unchristian
+uncivil   
+unclean
+undemocratic
+undesirable
+undignified 
+unethical   
+unfair 
+unfit 
+unfitting
+ungenteel
+unhealthy
+unlawful
+unnatural   
+unnecessary
+unmentionable
+unpatriotic 
+unprofessional
+unrefined
+unscientific
+unseemly
+unsuitable 
+untasteful
+unthinkable
+untoward   
+unwanted 
+unwelcome
+unwholesome
+outdated
+violent
+vulgar  
+wanton
+xenophobic 
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

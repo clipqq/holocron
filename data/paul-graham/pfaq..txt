@@ -1,0 +1,102 @@
+Programming FAQ --
+
+What editor do you use?vi.How can I learn to program?Find a friend who knows how to program. Get them to set you up with a system
+where you can edit and run programs.  Use whatever language they suggest
+for a beginner (probably it will be Python or Ruby).   Then get the 
+O'Reilly book and start working through it.As you learn the mechanics of writing and running
+a program, start thinking about specific 
+programs you want to write.  That will motivate you to learn
+more.Don't start with a problem that's too big.
+A good way 
+to begin is to take an existing program and
+modify it to do something new.Initially your programs will be
+ugly, but don't worry about that.
+Everyone's are. Just keep going, and they'll get
+better.As you learn, you'll find it
+useful to look at programs other people have written.
+But you'll learn more from this once you've tried
+programming yourself.Finally, find friends who like to write programs.
+They can answer your technical questions; you'll
+get new ideas from talking to them; and they'll be
+the audience for your first efforts.
+The hardest part is often to get the initial setup:
+a system where you can edit and run programs.
+Either get a friend to set this up for you,
+or use AppJet.Once you can edit and run programs, you can gradually
+get more ambitious.  --Why do you advise plunging right into a programming project
+instead of carefully planning it first?If you're trying to solve a simple, predefined problem
+like doing a depth-first search, thinking everything
+out beforehand doesn't hurt.  But few real problems
+are like that.  In real-world 
+applications, you don't usually know at first precisely what
+problem you're trying to solve.  So if you spend a lot
+of time planning in advance, what you'll end up with
+is a minutely detailed plan for solving the wrong
+problem.With complex, ill-defined problems, you're
+better off writing a prototype as fast as you can,
+seeing what turns out to be wrong with it, and then
+changing your definition of the problem accordingly.Often the reason programmers are pushed into planning
+is not that the problem requires it, but that project
+managers require it.  Maybe programmers
+should give managers an explicit choice: do you want 
+me to solve the problem in the way that will make you
+feel good, or the way that will yield the best solution?Why do you keep going on about Lisp?There are a number of topics I go on about: that small companies
+do things better than big ones; that cubicles suck; that you
+have to understand design to be a good hacker; that 
+planning is overrated.  Those don't seem so conspicuous,
+because many readers either have no prior opinion,
+or already agree.It doesn't cost
+anything to realize that cubicles suck.  Few people have a 
+vested interest in one style of office over another.  But 
+everyone has a vested interest in the languages they already
+know, because (a) it is a lot of work to learn a new language, 
+and (b) programming languages dictate how you think about programs,
+so it is hard even to conceive of a language more powerful than
+whatever you're used to.
+Dissing someone else's language is considered rude, I know.
+But rude is not the same as false.  And any language designer
+has to face awkward questions like which languages are
+better, and why, just as proctologists have to do things that
+would be considered extremely rude if ordinary people did them.
+We were not out to win over the Lisp programmers; we were after the C++ programmers. We managed to drag a lot of them about halfway to Lisp.
+
+Now, oddly enough, this is very much how I have 
+described languages
+of this type:
+
+A popular recipe for new programming languages in the past 20 
+years has been to take the C model of computing and add to it, 
+piecemeal, parts taken from the Lisp model, like runtime typing 
+and garbage collection.
+
+If it is merely some weird bias of mine to think that other
+languages approach Lisp asymptotically, it is encouraging to
+find that the designers of the other languages, if not their
+users, share this bias. --
+Isn't
+object-oriented programming naturally suited to some problems?Yes and no.  A lot of what seem to be OO problems turn out not to
+be if you have random access to the concepts that together comprise
+object-orientedness.If I were writing a CAD program or a simulation, for example, 
+I'd probably use OO abstractions (though I'd probably end up 
+creating my own OO model with macros instead of using whatever 
+came with the language).But if I were trying to solve the problem one reader sent to me
+as a canonical example of an OO problem, I wouldn't.
+
+Suppose you have n serial ports, each of which may speak one of k 
+protocols, and this must be configurable at run-time.
+
+I'd just use an n-by-k array of closures to represent this.
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

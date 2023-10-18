@@ -1,0 +1,42 @@
+You Weren't Meant to Have a Boss: The Cliffs Notes --
+
+Some people seem to have interpreted 
+You Weren't Meant to Have a Boss as putting down
+programmers who work for big companies.  Jeff Atwood reproduced
+one quote summarizing it as saying:
+
+  Oh... you haven't founded a company? You suck.
+
+In fact the thesis of the essay is exactly the opposite: that
+although the press treats startup founders as gods, the differences
+between them and other programmers are due less to their nature
+than to their work environment.  Here is the beginning of the
+last paragraph:
+
+  Watching employees get transformed into founders makes it clear
+  that the difference between the two is due mostly to environment...
+
+Why are people reading an essay that says this, and coming away
+with the idea that it says exactly the opposite?My guess is that this is an instance of a fairly common Internet
+phenomenon.  People are reacting to what they imagine I'd say 
+in an essay on this subject&mdash;that an essay comparing startup founders to 
+corporate employees would say that founders are great and
+corporate employees suck.Actually that has not been our experience.  Startup founders are
+not somehow set apart from "ordinary" programmers.  Lots more
+people could start startups if they wanted to.  In fact, our 
+business model depends on it.   If the pool of founders was
+limited to a few rare geniuses, Y Combinator wouldn't work.
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

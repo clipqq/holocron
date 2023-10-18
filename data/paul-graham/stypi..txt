@@ -1,0 +1,32 @@
+Watch Me Make Mistakes --
+
+November 2011Stypi is a new startup we 
+funded that's continuing where Etherpad
+left off.  Like Etherpad, Stypi can replay your edits.  I asked the
+founders to make something special for me: a version of playback
+that shows text that will ultimately be deleted in yellow.Startups in 13 SentencesWhat struck me most is the way writing seems for me to be a 
+stick-slip phenomenon.  Initially I fumble about and keep rewriting the same
+sentence over and over.  Then I get rolling and write a sentence or two
+that make it almost intact into the final version, and then I get stuck again.
+Watching
+these parts is like watching a mouse find its way through a maze.There are several different types of things that get deleted.  There
+are false starts, which get deleted immediately.  There are things
+I get wrong the first time but don't realize it.  Those I go back
+and rewrite later. And there are awkward or unnecessary words and
+sentences, most of which I catch in successive passes near the end.
+It's interesting how often the last sentence of a paragraph can
+simply be deleted.
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

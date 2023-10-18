@@ -1,0 +1,345 @@
+Stopping Spam --
+
+August 2003There are many ways to fight spam.  Which works best?  
+So far the best single solution is probably Bayesian filtering.
+But you don't have to choose just one.  Many of the 
+following solutions could be used in combination.Complaining to Spammers' ISPsGood: Raises cost of spamming.
+Bad: Laborious.
+Role: Partial solution, for experts.This was the original spam solution.  Believe it or not, complaints can
+have an effect.  True, spammers expect to be shut down, and already have
+fresh accounts lined up.   Constantly switching
+providers is just a cost of doing business.  But the
+faster they get booted due to complaints, the greater this
+cost becomes.Complaining effectively is difficult.  Most
+spammers forge the headers of their emails to disguise their
+origin.  You have to learn to interpret headers
+to understand where a spam really came from.Another option is to complain to the ISP hosting the site
+advertised in the spam (or, if the ISP is a spam hosting
+service, their upstream provider).  But again, it can
+take some effort to figure out who this is.Mail Server BlacklistsGood: Block spam right at the server.
+Bad: Incomplete, sometimes irresponsible.
+Role: A first pass to eliminate up to 50% of spam early on.Groups of volunteers maintain blacklists of mail servers
+either used by spammers, or that have security holes that
+would let spammers use them.  Some ISPs subscribe to such
+blacklists, and automatically
+refuse any mail from servers on them.Blacklists have two downsides.  One is that they never manage
+to list more than about half the servers that spam comes from.
+Another is that
+a blacklist is only as good as the people running it.  Some
+blacklists are run by
+vigilantes 
+who shoot first and ask questions
+later.  Using the wrong blacklist could mean bouncing a lot
+of legitimate mail.Blacklists are useful as at the ISP level, as long as you (a)
+use a responsible one (if there are any) and
+(b) don't expect it to be more
+than a first cut at the problem.Signature-Based FilteringGood: Rarely blocks legitimate mail.
+Bad: Catches only 50-70% of spam.
+Role: A first-pass filter on big email services.Signature-Based filters work by comparing incoming email to
+known spams.  
+Brightmail 
+does it by maintaining a
+network of fake email addresses.  Any email sent to these
+addresses must be spam.  So when they see the same email sent
+to an address they're protecting, they know they can filter it out.In order to tell whether two emails are the same, these systems
+calculate "signatures" for them.  One way to calculate a signature
+for an email would be to assign a number to each character, then
+add up all the numbers.  It would be unlikely that a different
+email would have exactly the same signature.The way to attack a signature-based filter is to add random
+stuff to each copy of a spam, to give it a distinct signature.
+When you see random junk in the subject
+line of a spam, that's why it's there-- to trick signature-based
+filters.The spammers have always had the upper hand in the battle against
+signature-based filters.  As soon as the filter developers figure
+out how to ignore one kind of random insertion,
+the spammers switch to another.  So signature-based
+filters have never had very good performance.Bayesian (aka Statistical) FilteringGood: Catch 99% to 99.9% of spam, low false positives.
+Bad: Have to be trained.
+Role: Best current solution for individual users.Bayesian filters 
+are the latest in spam filtering technology.  They
+recognize spam by looking at the words (or "tokens") they
+contain.A Bayesian filter starts with two collections of
+mail, one of spam and one of legitimate mail.  For every word
+in these emails, it calculates a spam probability based on
+the proportion of spam
+occurrences.  In my own email,
+"Guaranteed" has a spam probability of 98%, because it occurs
+mostly in spam; "This" has a spam probability of 43%, because it
+occurs about equally in spam and legitimate mail; and "deduce" has
+a spam probability of only 3%, because it occurs mostly in
+legitimate email.When a new mail arrives, the filter collects the 15 or 20
+words whose spam probabilities are furthest (in either direction)
+from a neutral 50%, and calculates from these an overall
+probability that the email is a spam.Because
+they learn to distinguish spam from legitimate mail by looking
+at the actual mail sent to each user, Bayesian filters are
+extremely accurate, and adapt automatically as spam evolves.Bayesian filters vary in performance.  As a rule you can count
+on filtering rates of 99%.  Some, like 
+SpamProbe, deliver
+filtering rates closer to 99.9%.Bayesian filters are particularly good at avoiding "false
+positives"-- legitimate email misclassified as spam.
+This is because they consider evidence of innocence as well
+as evidence of guilt.  A Bayesian filter is unlikely to
+reject an otherwise innocent email that happens to
+contain the word "sex", as a rule-based filter might.The disadvantage of Bayesian filters is that they need to be
+trained.  The user has to tell them
+whenever they misclassify a mail.  Of course, after the filter
+has seen a couple hundred examples, it rarely guesses wrong,
+so in the long term there is little extra work involved.Another disadvantage of Bayesian filters is that they're
+new.  The technology only became widespread in 2003.  Most
+commercial spam filters are still rule-based.Rule-Based (aka Heuristic) FilteringGood: The best catch 90-95% of spam, easy to install.
+Bad: Static rules, relatively high false positives.
+Role: Easy server-level solution.Rule-based filters look for patterns that indicate spam:
+specific words and phrases, lots of uppercase and exclamation points,
+malformed headers, dates in the future or the past, etc.  This is
+how nearly all spam filters worked until 2002.The performance of rule-based filters varies hugely.  The simplest just
+reject any email that contains certain "bad" words.  These 
+are laughably easy for spammers to beat, and also tend to reject
+a lot of legitimate email.On the other hand, sophisticated rule-based filters like
+Spamassassin can be quite 
+effective.  You can probably count on
+a good rule-based filter catching 90-95% of current spam.The main disadvantage of rule-based filters is that they tend to
+have high false positive
+rates--often as high as .5%.  (A trained Bayesian filter's
+false positive rate would be less than a tenth of that.)Another disadvantage is that the rules are static.
+When spammers learn new tricks, the filter's authors
+have to write new rules to catch them.
+And because rule-based filters are static targets, spammers 
+can tune their mails to get past them.  Sophisticated spammers
+already test their mails on popular rule-based filters
+before sending them.  In fact, there are 
+sites that
+will do this for free.The advantage of rule-based filters over Bayesian filters is
+that they're easy to install at the mail server level.  Bayesian
+filters require users
+to train them by telling them when they misclassify an
+email, so running one on the server
+is a little more complicated
+(but probably worth it).
+Challenge-Response FilteringGood: Stops 99.9% of spam.
+Bad: Rude, delays or drops legitimate email.
+Role: Grandmothers, cranks.When you get an email from someone you haven't had mail from
+before, a challenge-response
+filter sends an email back to them,
+telling them they must go to a web page and fill out a form
+before the email can be delivered.The advantage of challenge-response filters is that they
+let through very little spam.  (At least, so far.)  The
+disadvantage is that they're rude.  Spam
+means extra work for all of us.  By using a
+challenge-reponse filter, you're saying that
+you expect the extra work of keeping your inbox free of
+spam to be done by the people who send you mail.The other disadvantage of challenge-response filters is that
+much legitimate mail will either be lost, or delayed until
+it's too late to be useful.  Suppose an acquaintance
+is going to a party tonight and decides to invite you too.  Your
+filter replies with a challenge.  But she doesn't see this till
+she checks her mail again the next day, by which time it's
+too late.Occasionally senders will never reply to the challenge,
+and the email they sent you will be lost.  Some respond
+to this by saying "if they're not willing to do a
+little work to talk to me, I probably don't want to hear from
+them anyway."  But there are cases where this is clearly not
+true.  I have several email addresses that all get forwarded to
+one account.  If someone using a challenge-response filter
+sends me a question, the reply will come from an address their
+filter hasn't seen and I'll get a challenge back.
+If such challenges seem rude when
+you're the one initiating contact, imagine how they seem when   
+you get one after replying to someone's question.
+I never bother to respond, and I'm probably not the only one.There are also technical objections to challenge-response
+filters.  What happens when spammers happen to use some
+innocent person's address as the from-address in a spam,
+for example?  What happens when spamware authors (who aren't
+stupid) figure out how to spoof challenges?  How do you
+create a challenge that blind
+people can pass?If such technical objections could be overcome, challenge-response
+filters would have a place.
+They'd be suitable
+for users like my mother, who says that she only gets email from
+about 10 different addresses, and gets mail from a new address
+only about once a year.  They might also be good
+in combination with other kinds of spam filter; you could  
+challenge the mails that a Bayesian filter classified
+as spam, for example, just in case any were legit.But using just challenge-response on all your incoming
+email is like putting a ten-foot chain-link fence around your
+house.  Yes, it will
+keep people out, but it also sends the world a certain message
+about you.LawsGood: Truly threaten spammers.
+Bad: Aren't enforced, or are full of loopholes.
+Role: Could eliminate 80% of spam, if done right.There are two problems with laws against spam: they usually
+contain large loopholes inserted by lobbyists, and the worst
+class of spammers ignore them.But it isn't necessarily a waste of time to try to pass
+laws against spam.  Even if some spammers do ignore laws,
+getting rid of the 
+rest would still be worthwhile.To be effective, spam laws would have to have criminal and
+not just civil penalties.
+The most prolific spammers in the US have made themselves 
+judgment proof-- by putting
+all their assets in their wife's name, for example,
+or by buying a house in Florida.(Florida law
+protects real estate against civil judgments.  
+This is one of the reasons Florida,
+and Boca
+Raton in particular, is the spam center of the
+country.)But the main thing any law against spam needs is
+enforcement.  There are plenty of 
+state
+laws against spam, and
+they seem to have no effect.  One reason is that the states  
+don't enforce them.One option currently being considered is a do-not-spam
+list, like the US do-not-call list. 
+I don't think this will work.  All it    
+would take is one person to crack the security, and the
+list would be out there, irretrievably.The main loophole in spam laws is usually in the definition
+of spam.  Most spam laws allow unsolicited email to recipients
+who have a prior relationship with the sender.  This is 
+reasonable, but you have to define carefully what a prior   
+relationship consists of.  There is a whole class of
+spammers (they currently call themselves
+"permission-based email marketers") who get email addresses
+by buying them from websites with unscrupulous privacy policies.
+By calling the site they bought your address from an "affiliate"
+or "partner", the spammers claim that they too have a prior
+relationship with you, and are thus exempt from spam laws.This loophole would have to be closed for any anti-spam law
+to work.  The way to draw the line between spam and marketing
+is to look at where the sender got your email address.
+If they merely bought your address, or harvested it from web pages,
+chat rooms, or newsgroups, then they don't have a prior relationship
+with you.
+If a federal spam law simply said that any email to an address
+thus obtained had to have ADV in the subject line, that
+alone could get rid of 50% of spam.
+Legitimate direct marketers would have little objection to
+such a measure; they don't want their brands to be tarnished by spamming,
+and never buy or harvest email addresses.(Only a few well-known brands use spam.
+Gevalia, owned by Kraft, is probably the most 
+notorious.)Some see First Amendment problems with laws against spamming.
+But there are plenty of precedents.  The closest are probably
+the federal laws against junk faxes and telemarketing with recorded messages.
+There doesn't seem to have been much protest against these on
+free speech grounds.A law against spam could have some effect, even if it wasn't very
+well enforced, because it would further stigmatize spam.  Spammers
+have families, friends, and neighbors, and these all exert some
+amount of pressure on them.  
+Alan Ralsky
+said that he
+had promised his wife not to send porn spams.  (You probably
+have to pay extra attention to your wife when all your assets are
+in her name.)  Perhaps if there were a federal law against spam,
+with criminal penalties, she'd make him stop altogether.FFBsGood: Raise cost of spamming.
+Bad: Involve blacklists.
+Role: Speculative idea.About 95% of spams contain links to web pages.  If everyone
+who received a spam actually followed the links in it, the
+traffic would be a heavy burden on the spammers' servers.That's the idea behind FFBs (Filters that Fight Back).  
+If many spam filters automatically crawled sites mentioned in spams,
+the resulting traffic could generate high server loads
+and bandwidth costs for spammers.The biggest spammers could probably protect themselves against   
+FFBs overloading their server, but even in their case the
+bandwidth would have to be paid for, raising the cost
+of each spam.  Smaller spammers would be crushed by FFBs.       
+A medium-sized spam hosting account allows 50 GB of transfer
+per month.  A moderately popular FFB could drain this in a
+matter of hours.To protect against people sending fake spams in
+order to provoke FFBs to attack innocent sites, this system
+would have to rely on blacklists.  Only sites listed on the
+blacklist would be crawled when spam mentioning them arrived.
+Technically, that is the weak point of this solution: blacklists
+are not always responsibly managed.Another disadvantage to this plan is the resemblance to a
+denial of service attack.  It isn't a DoS attack, according
+to most definitions.  Even so,
+some users wouldn't want to do this, even to spammers.
+There are no FFBs yet, though there is now 
+one filter that 
+automatically retrieves web pages to improve accuracy.Slow SendersGood: Raises cost of spamming.
+Bad: Requires new email protocol.
+Role: Speculative idea.Spam has low response rates (on the order of 15 per million)
+but spammers make up for it with high volumes, sending millions
+of emails per day.  If you could slow down the rate at which
+they send email, you could put them out of business.One way to do this would be to make any computer that wanted
+to send you mail perform a time-consuming 
+computation
+before you would accept it.Whatever these computations were, they couldn't be too arduous,
+because legitimate corporate mail servers have to be able 
+to send high volumes of mail.  And corporate mail servers
+would be running on stock hardware.  Many computations can
+be made hundreds or thousands of times faster by custom hardware.
+Spammers already have highly tuned systems and would not be
+deterred by the need for custom hardware.So for this idea to work, you'd need to figure out a kind of
+computation that couldn't easily be speeded up by custom
+hardware.(You could improve the odds by incorporating Bayesian 
+spam recognition; instead of always requiring
+the same calculation, require a calculation whose difficulty
+depends on the spamminess of the incoming mail.)Even if you could find a suitable computation, this idea would 
+require new email  protocols.  Any new   
+protocol has a chicken-and-egg problem: no one needs to adopt
+it till everyone else does.  As a result, it is practically
+impossible to get a new protocol adopted for anything.
+How are you going to get sysadmins who don't even bother to
+install patches for years-old security holes to switch to
+a new email protocol?Penny per MailGood: Raises cost of spamming.
+Bad: Requires new email protocol, bureaucracy.
+Role: Speculative idea.There are various
+ideas
+floating around for charging some small
+amount per email sent.   If it cost even half
+a cent to send an email, spam wouldn't pay, and would disappear.Unfortunately, I think there
+would be insuperable practical problems in setting up such a 
+system.  These proposals run into the same chicken-and-egg
+problem as anything that requires a new protocol; there is
+no incentive to be an early adopter.In this case the protocol would be particularly
+onerous to administer, because it would involve money.  Setting
+up a mail server would mean establishing a line of credit.Security would become much more
+important once money was involved.  Mail servers would now
+in effect transfer funds, like servers within the banking
+system.  This despite the fact that they are connected to
+the Internet.Charging per email wouldn't stop the worst spammers.  They'd
+just break into companies' computers and send mail at their
+expense.  And the possibility of a spammer breaking into one's
+system and racking up big email bills would not make the
+average sysadmin eager to become an early adopter, to say the
+least.For this kind of approach to work, we'd first have to solve   
+the problem of making the average small and medium-sized 
+company's network secure.  So we'd just be exchanging a hard
+problem for a harder one.
+Secret AddressGood: Easy.
+Bad: Doesn't work.
+Role: Facile recommendation for brief news articles.Some recommend that you keep your address secret in order to
+avoid spam.  But it's hard to keep your address secret, because
+other people have to know it to send you email.  All it takes
+is one naive friend to enter your address in a web site to send you
+an electronic greeting card, and it's all over.
+Even if no one discloses your address, spammers can still  
+get it through dictionary attacks.  In a dictionary attack,
+spammers try sending a test mail to millions of possible addresses.
+Any that don't bounce are probably valid.  My mother gets spam
+as a result of a dictionary attack on AOL, even though
+she only sends email to a handful of people and never
+uses the Web.Junk AddressGood: Cuts some spam.
+Bad: Can't always use them.
+Role: Use on web sites that make you register.You could in principle avoid spam by giving a different email
+address to everyone.  Then you could just shut off any address
+that got compromised.  And, for what it's worth, you'd know
+who was responsible.This is a good idea when you have to enter your address on   
+a web site, e.g. to register for an account to read news
+articles online.  I usually use junk addresses for such
+purposes.This is hard to do in all cases, though.  You would not be
+able to just print an email address on your web site or 
+business card.  Instead you'd have to have a page you
+sent people to, where they could request an email address
+to use to send mail to you.
+Thanks to Bill Yerazunis and Brian Burton for reading
+this and suggesting several fixes.
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

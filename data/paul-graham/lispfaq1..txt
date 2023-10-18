@@ -1,0 +1,69 @@
+Lisp FAQ --
+
+What is Lisp?Lisp is a family of programming languages descended from
+a language John McCarthy invented
+(or more accurately, discovered) in the late 1950s.  The
+two main dialects now are Common Lisp and Scheme.
+We're working on a new dialect called Arc.How can I learn Lisp?The way to learn any language is to write programs in it.
+You have two main dialects to choose between: Scheme
+and Common Lisp.  They each have advantages and disadvantages,
+but the differences between them are tiny compared to the
+differences between them and other languages, so if you want
+to start learning Lisp, it doesn't matter which you choose.There are good books about both dialects, and many good free
+implementations.  So get a book and an implementation, and start trying to write
+programs.  Read existing source code to get an idea of Lisp
+style.  If you run into trouble, ask on comp.lang.lisp.  
+People there are always willing to help newbies.Which should I learn, Common Lisp or Scheme?  What's the
+difference?Common Lisp is powerful but ugly.
+Scheme is small and clean, but the standard only defines the
+inner core of the language.  If I had to deliver an application
+I'd probably use Common Lisp; if I were teaching a course I might use
+Scheme (but with Common Lisp macros).Do you know a good, free Lisp implementation?There are several.  The Common Lisp implementation 
+I use
+is Clisp, but
+CMUCL is also well-regarded.
+For Scheme hacking I use Scheme
+48 and PLT Scheme.Can you recommend a book for someone who wants to learn Lisp?You might like
+this one.Is there a good online tutorial for Lisp?Start with
+Chapter 2
+of Ansi Common Lisp, which is a brief introduction to Lisp programming.
+For more detail, see the Common Lisp
+reference
+manual.If Lisp is so great, why don't more people use it?The root cause is probably that it looks hard, but
+it would help if there were a dialect with extensive libraries.Where can I get a copy of On Lisp?Thanks to Chip Coldwell, you can now get a Postscript
+file of it online.It looks as if the book is going to be in print again
+soon, but if you are determined to have a valuable 
+first edition, you can get a used copy at 
+Amazon.Is there a second edition of ANSI Common Lisp?Some databases say that there is, but there isn't; not yet
+at least.Is there a set of solutions to the problems in
+ANSI Common Lisp?Unfortunately not.  I was supposed to write one, but
+we started Viaweb right after the
+book went to press, and I never got around to it.Where can I get a job hacking Lisp?Try the companies with Lisp applications.
+Or you could start your own.I like Lisp but my company won't let me use it.  What should I do?Try to get them to let you use Python.  Often when your employer won't let 
+you use Lisp it's because (whatever the official reason) the guy in charge
+of your department is afraid of the way Lisp source code looks.
+Python looks like an ordinary dumb language, but semantically it has a
+lot in common with Lisp, and has been
+getting closer to Lisp over time.They might even let you use Ruby, which is even more Lisp-like.What do you think of ML and its derivatives?Most hackers I know have been disappointed by the ML family.
+Languages with static typing would be more suitable if programs were
+something you thought
+of in advance, and then merely translated into code.  But that's not
+how programs get written.The inability to have lists of mixed types is a particularly crippling
+restriction.  It gets in the way of exploratory programming (it's
+convenient early on to represent everything as lists), and it
+means you can't have real macros.Do you know anyone who does AutoLisp consulting?No, but Google
+does.
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

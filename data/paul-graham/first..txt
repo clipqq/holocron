@@ -1,0 +1,30 @@
+Was Viaweb First? --
+
+As far as 
+we knew, Viaweb was the first web-based application, 
+but I worry that there were others we didn't know
+about.  So please tell me if you know of any earlier.It depends what counts as an application, of course.  What I mean
+by an application is a web site that is not merely an interface
+to a database, but something like a desktop application, where
+the user actually builds things on the server.  
+That is, something with the
+equivalent of file-&gt;new.Robert Morris and I demoed the first version of Viaweb to investors
+in August 1995.  At the time, 
+as far as we knew, it was a new 
+kind of software.  But I don't want to be saying something that isn't
+true, so if anyone knows of any web-based applications before that,
+please drop me a line.
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

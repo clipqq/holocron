@@ -1,0 +1,84 @@
+More Advice for Undergrads --
+
+I asked several friends who were professors and/or eminent hackers
+what they thought of  Undergraduation.
+Their comments were so good that I thought I'd just give them 
+directly to you.  I've given them all codenames for now, since some
+may want to remain anonymous.
+NT:The one thing that I felt was missing from your essay was a statement
+supporting or dispelling the notion that CS is for loners. I disagree
+with this notion. I love hacking, but I love it even more when it's
+a shared experience. The hard problems seem just a bit more
+surmountable when there's two of you.Of course, Fred Brooks's law
+about adding manpower comes into play eventually. The rule: work
+in small groups with good people. Stay away from large bureaucratic
+organizations where status reports are more important than thinking
+outside the box. There are many individual aspects to CS, just like
+art. But, being an individual doesn't mean that the machine takes
+the place of good friends, colleagues, and mentors.TO:I think you should say "College is where faking starts to stop
+working."FS:Math is more difficult than CS, no question.  However, it is not at
+all clear to me that math has as much intellectual content as CS.  The
+math hills are individually harder to climb, but CS is a bigger piece
+of landscape.  (Formally, CS has to encompass reasoning about 
+stateful objects with histories.  There are important ways in which 
+this is more difficult and general than pure axiomatic systems.)Empirically, I don't think the difference between math and CS is very
+useful for predicting how interesting and effective a thinker will
+come out the other end.  So, while I agree with the spirit of your
+"dropout graph" heuristic, I think math and CS are an unhelpful choice
+to explain it with.  Much better to note that both are hard subjects
+with real content, and contrast them with some sort of blatant
+basket-weaving like political science or (urgh) "ethnic studies.""They may be trying to make you lift weights with your brain."
+Indeed; I think pure mathematics makes excellent weightlifting.SA:The problem with graphics as an application is that doing a decent 
+3D game has a large
+component of movie making in it. You need motion capture and an art
+department for all the textures and backgrounds. Nobody will be
+impressed with pink cubes and green spheres bouncing around on the
+screen. I think the technology has pretty much surpassed anyone's
+ability to do anything simple and cool with it.DF:I found, when I was studying mathematics, that 2 things were
+true:  (1) the teacher was not too good and (2) the book was not too
+good.  So I would always buy a half-dozen books on the topic and
+try to get the full picture by reading the same sections in each
+book.  The combination helped me understand much more than the sum
+of the content.  Also, I was never opposed to reading something
+as much as 10 times until I squeezed everything out of it.I have found mathematics and especially formal logic to be an
+indispensible tool for structuring ideas.
+It was like Latin for me.  Latin was this very clean natural
+language and logic was this very clean formal language.  I
+had to teach it to myself because the logic course I had was
+the first 30 pages of Mendelsohn.  When you want to say something
+unequivocally, describing formally is a good first start.When you want to understand, for example, the excitement of
+monads, understanding logic and some category theory helps.
+Category theory is also quite pretty.  It simply says that
+everything has to be described in terms of function composition
+and this operator has to satisfy certain properties.If you think of logic as something alive, which allows you
+to prove theorems, it is fascinating.  Just think about it:
+prove theorems by computer.  It is mind-boggling.  It will
+not likely lead to a start-up being successful, but what
+a moment when you prove a theorem without heuristics, etc.I have insisted that all my graduate students minor in logic,
+so that should say something.ML:The real reason to study math is not that it's useful but that it's cool.
+This should be all the reason a would-be hacker needs.  Also, with its
+emphasis on rigor and abstraction, it's cool in a lot of the same ways as
+programming at its best.  The fact that it's occasionally useful as well
+is just lagniappe.I also disagree that good mathematicians tend to be bad teachers.  Having
+enjoyed the privilege of an expensive education, I am of the opinion
+that the very best mathematicians are usually (certainly not always)
+rather good teachers and are sometimes extraordinarily good.  The real
+reason it is hard to learn what math is about is that mathematical
+understanding requires new and difficult (at least at first) ways of
+thinking.  Cookbook calculus courses sidestep these difficulties and
+therefore teach little of value.  Really understanding calculus was hard
+for Newton and is hard today.
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

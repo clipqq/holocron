@@ -1,0 +1,35 @@
+Getting Past Filters --
+
+How can legitimate opt-in list publishers avoid
+getting their mails caught in spam filters?The key is to avoid getting your initial email caught in the
+filter.  Bayesian filters "learn" about spam characteristics
+from the mail each user receives.  Once a mail ends up in
+the spam folder, all mails resembling it will be classified
+as spam.  Which means once you get in the spam folder, you
+won't get out.The opposite is also true, however.  If the recipient discards
+your email as ordinary trash, he thereby labels it as legit,
+and mails resembing it will in future get past the filter.So the key thing for the legitimate publisher is to avoid
+getting that first email classified as spam.  If you can get
+the first email into the inbox, and the user doesn't mark
+it as spam, you're in.How do you do that?  Avoid saying spammy things in that first
+email.  Sales pitches, for example.  And even more importantly, 
+include words that only a legitimate sender would know, like
+the first and last name of the subscriber.  If your list, like
+many lists, is related to some specific interest that the
+subscriber has (model trains, for example), use terms related 
+to that field as well, because they will likely have occurred 
+in his legit email already.
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

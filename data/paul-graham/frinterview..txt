@@ -1,0 +1,86 @@
+The (Actual) FR Interview --
+
+(Found|Read 
+interviewed me about Y Combinator, but edited 
+the questions and answers so much that the sense was often changed.
+Here are my original answers.  I've used their new questions
+whenever possible, but kept the original ones when they'd changed
+so much that my answer became mysterious.)
+F|R: What is the mathematical function from which  Y Combinator
+takes its name, and why did you choose this?Graham: It's a function that builds recursive functions without
+them needing to have names.  The Y Combinator is one of those things
+that seems miraculous when you first encounter it.  You wouldn't
+necessarily have expected such a thing to be possible.  We named
+the company after it partly because we thought it was such a cool
+concept, and partly as a secret signal to the kind of people we
+hoped would apply.
+F|R:  How quickly can you now tell whether a start-up will make it?
+And what are the key characteristics that indicate potential success
+to Y Combinator?Graham: We can never tell for sure.  No investor can.  But we are
+trying hard to get better at predicting.I think the key quality is determination.  The founders who do the
+best are the type of people who just refuse to fail.  Most startups
+have at least one low point where any reasonable person would give
+up.  That bottleneck is the reason there are so few successful
+startups.  The only people who get through it are the ones who have
+an unreasonable aversion to failing.
+F|R: Several copycat incubators have sprung up since Y Combinator
+launched in 2005 (TechStars, Y Europe, Seedcamp, BoostPhase). Can
+your model be replicated?Graham: There are a few things they haven't copied correctly, but
+really it's not our model that distinguishes us.  It's the people
+that make the difference&mdash;not just us, but the 250 or so founders
+we've now funded.  The amount of knowledge accumulated in all these
+heads is remarkable.
+F|R: I read that when you call Y Combinator winners, the founders
+have only five minutes to accept. ("If people turn us down," he
+says, "as far as we're concerned they've failed an IQ test.") Have
+startups turned you down? Are there any that have turned Y Combinator
+down and still gone on to succeed with a liquidity event?Graham: You're confusing two separate things.  The reason people
+are supposed to decide quickly whether or not to accept is that
+they already know everything except the percent we'll ask for.
+They've already seen the deal terms, and they already know as much
+as they're going to know about YC before actually working with us.
+So they should already know when we call what percentage they'd be
+ok with.  Since all they have to do is subtract one integer from
+another, five minutes should be enough.The "IQ test" quote refers not to how fast they have to decide, but
+the amount of equity we usually ask for.  In the median case it's
+6%.  If we take 6%, we have to improve a startup's outcome by 6.4%
+for them to end up net ahead.  That's a ridiculously low bar.  So
+the IQ test is whether they grasp that.There was one startup that turned us down because they received an
+acquisition offer during the weekend when we did interviews.  It
+was a pretty good offer.  I'd have taken it in their position, and
+they did.  But other than that I don't know of anyone who turned
+us down and went on to succeed.  There have only been about three
+others who turned us down.
+F|R: How did you determine the 12-week term of each Y Combinator
+class?  Why is two months too short, or six months too long to
+"incubate" a startup?Graham: We discovered it by accident.  When we first started YC,
+we began with a summer program.  We were trying to learn how to be
+investors, so we invited college students to come to Cambridge and
+start startups instead of getting summer jobs.Now we're looking for founders who consider the startup as a real
+job, not just a summer one.  But we kept the 3 month cycle because
+it is a good length of time to build a version 1.  Some startups
+may not be able to launch in such a short time, but they should all
+be able to build something impressive.
+F|R: Name one thing founders can do to increase their odds of being
+selected by Y Combinator.  Is Andreessen right that "the market"
+matters more than the idea, the tech, and even the talent?Graham: Get good cofounders. You can't change who you are, at least
+not in a short time.  And the idea doesn't matter to us as much as
+the people.  So the best thing any indvidual can do is find good
+people to work with.I think Marc may be right that market is the biggest determinant
+in the outcome of successful startups.  But that's not unrelated
+to the qualities of the founders.  Smart people will find big
+markets.
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

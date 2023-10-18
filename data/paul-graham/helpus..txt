@@ -1,0 +1,26 @@
+Help Us --
+
+
+We often get mail saying: you should take a look at 
+Language X; it has some really cool features.We're ready to embrace
+(and extend) any great new ideas that are out there, but there
+are just too many languages for us to learn them all.That's where you can help.  If some other language has
+a core language feature that impresses you, make a post
+describing it on the Arc
+Forum, along with, if applicable, the presumably 
+kludgier code you'd have to write in Arc to do the same thing.
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

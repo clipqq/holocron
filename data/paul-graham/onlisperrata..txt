@@ -1,0 +1,36 @@
+Errata --
+
+Here's a list of problems people have reported in On Lisp.
+I haven't checked them all yet. The ones that say caught I 
+have checked, the ones that say reported I haven't.p. 14. "One of the big differences ... are the large number"
+Caught by John Chandler.p. 18. In the footnote, x should be n, and parameter should be plural.
+Caught by Kris Steegmans.p. 23. our-find-if would recurse infinitely if no element matches. 
+Caught by Markus Triska.p. 75. "it would [be] safe to assume".
+Caught by Markus Triska.p. 85. `(,a ,(b `,c))) has an extra close paren. 
+Caught by Jon Ericson.p. 156.  In do-tuples/o the expression (1- (length parms))
+should be (- (length source) (length parms)).
+Reported by Roland. (at netquant.com.br)p. 176. In the second to last line, "grows exponentially" should be
+"grows quadratically." 
+Caught by Chris Oliver.p. 189 et seq. Anaphora is not a plural.p. 191 (acond (3)) returns nil when it should return 3.
+Same problem with acond2, p. 198.
+Caught by Terrence Ireland.p. 222. In the definition of asetf, 'setf should be'(lambda (x y) y).
+Caught by Francois-Rene Rideau.p. 223. The &optional in the definition of defanaph is unnecessary.
+Caught by Francois-Rene Rideau.p. 246. Extra a in "An embedded language is not a like a..." 
+Caught by Markus Triska.p. 267. The global value of *cont* should be #'values instead of #'identity.
+Caught by Francois-Rene Rideau.p. 293. The last line of choose should be indented two more spaces.
+(This doesn't change its behavior of course.)  Caught by Alejandro Forero Cuervo.p. 301 In Figure 22.9, equal? should be eq?.
+Caught by Francois-Rene Rideau.
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

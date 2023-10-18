@@ -1,0 +1,19 @@
+Spam Archives --
+
+A number of far-sighted people have been saving all their spam 
+and have put it online.  This is a valuable resource for anyone
+writing Bayesian filters.Paul WoutersRichard JonesBruce GuenterNik MartinJim DornbosSpamarchive.org
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

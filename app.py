@@ -46,7 +46,7 @@ def hello():
 
     # loader = TextLoader('data.txt')
     loader = DirectoryLoader(
-        "data", glob="*", show_progress=True, loader_cls=TextLoader
+        "data/benjamin-graham", glob="*", show_progress=True, loader_cls=TextLoader
     )
     index = VectorstoreIndexCreator().from_loaders([loader])
 

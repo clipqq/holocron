@@ -1,0 +1,20 @@
+Berners-Lee Re: Java --
+
+"Java is sweeping across the world so that if you go to your boss and say, 
+"I'll think I'll write it in Java," then your boss will be
+very impressed and she won't tell you, "Don't be silly; we don't 
+program like that here.""- Tim Berners-Lee, keynote at JavaOne, 1996
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,45 @@
+Doug McIlroy: McCarthy Presents Lisp --
+
+September 2009Doug McIlroy recently sent me an email saying
+"It occurred to me recently that 2009 is the 50th anniversary
+of the most significant computer science talk I ever attended."
+He went on to describe it:Just fifty years ago, John McCarthy circulated a notice
+that he would be giving an informal talk that he thought
+would be of interest.  I drove up to MIT from New Jersey to
+attend this seminar of typical length in a typical classroom.
+But the seminar was anything but typical.  It was a revelation.
+In one session at the blackboard, John introduced Lisp &mdash; all
+you could do with car, cdr, cons, cond, lambda, and recursion.Recursion had no place in mainstream programming at the time,
+nor did lambda calculus.  Only two years before, I had sat in a
+coffee-room discussion of what it would mean for a subroutine
+to call itself.  Questions raised but unanswered were whether
+recursive instances deserved to be deemed the "same" subroutine,
+and, if you could do it, what good would it be?  It turned out
+you could do it: I programmed it for the IBM 704.  Given the
+challenge, the now standard stack solution arose inexorably.
+But the question of what it was good for remained.In the course of the lecture John introduced the usual basic
+list functions like copy, append and reverse (quadratic
+and linear), as well as tree manipulation.  He went on to
+higher-level functions, demonstrating maplis and lambda.
+By the end of the hour he had put together a powerful little
+toolkit of functions which he used in his finale: symbolic
+differentiation of univariate expressions.There it was &mdash; functional programming ex nihilo. McCarthy
+acknowledged IPL  V and recursive function theory, but the elegant
+and practical face he put upon these antecedents was a work
+of genius.  Nobody would ever again wonder what good it was to
+allow functions to call themselves.  And it was all so clear one
+could go home and build it oneself without any instruction book.
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

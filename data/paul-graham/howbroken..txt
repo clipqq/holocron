@@ -1,0 +1,25 @@
+How the BST Code was Broken --
+
+Chris Stover writes: "It is not enough
+to specify that (left child) Keke (surname unknown) gives an example:
+ (setf nums nil)
+NIL
+ (dolist (x '(5 8 4 2 1 9 6 7 3))
+    (setf nums (bst-insert x nums #' (setf nums (bst-remove 5 nums #'
+ (bst-traverse #'princ nums)
+13246789
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

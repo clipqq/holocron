@@ -1,0 +1,55 @@
+Microsoft Patent --
+
+Several people who read A Plan for Spam
+have asked if I'm worried that Microsoft has already been granted a 
+patent
+on some aspects of Bayesian spam filtering.I'm not.  A patent doesn't mean
+much until it is tested in court.  Especially for something
+like software, where the patent office regularly grants 
+patents for ideas that are not new at all.Jason Rennie's  ifile,
+a Bayesian mail classifier, predates Microsoft's patent application by two years.  
+Pantel and Lin's paper
+about using a Bayesian classifier specifically to filter spam also predates
+the application by three months.  The one novel idea I see in the patent is using 
+non-word features of  the message (e.g. the arrival time) as if they were words 
+in a Bayesian calculation of spam
+probability.  But (a) this is an obvious idea to one skilled in the art, and (b)
+you don't need to do this to make an effective Bayesian filter.Even if the patent were valid, I don't think it would be dangerous,
+because I think big companies apply for
+patents mostly as a defensive measure.  
+Big companies apply for patents on everything that
+comes out of their research departments as a matter of course,
+more to protect themselves against patent suits than to 
+use as a weapon against competitors.Like many big companies,
+Microsoft wins by dominating distribution
+channels, not by having better products.
+Having a technical edge over competitors is not 
+critical to their business.Patents are even less of a worry for free software.  Even 
+Microsoft is constrained by public opinion.  Can
+you imagine the stink it would raise if Microsoft tried
+to shut down an open-source project for patent infringement?
+I've never heard of any company,
+big or small, trying to shut down an open-source project
+over a patent.However, if you're worried about ideas being taken out
+of circulation by being patented, the thing to do is 
+publish every idea you have as soon as you have it.
+No one can patent an idea that has already been published
+by someone else.And if you want to start a startup and are worried about
+getting caught in a web of patents, build a 
+server-based application.
+That kind of project is far too messy and hands-on for anyone
+to get very far into it in a corporate R&D department.
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

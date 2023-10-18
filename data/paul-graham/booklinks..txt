@@ -1,0 +1,17 @@
+Books --
+
+Ansi Common LispCommon Lisp: The Language, 2 (Free)Common Lisp: An Interactive Approach (Free)A Gentle Introduction (Free)GNU Emacs ExtensionsLisp in Small PiecesHow to Design Programs (Free)Lisp 1.5 Manual (1962)Lisp, Lore, and LogicThe Little LisperThe Little SchemerMythical Man-MonthOn Lisp (Free)Partial Evaluation and Program Generation (Free)Patterns of SoftwareParadigms of Artificial Intelligence ProgrammingStructure and Interpretation of Computer Programs (Free)
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

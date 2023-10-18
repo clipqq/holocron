@@ -1,0 +1,34 @@
+What Python Fixes --
+
+Several Python users have sent suggestions
+about what Python fixes.I still don't feel sure of the answer.  I feel like I know
+what causes people to use Python now (that Perl
+is a kludge), but I'm not sure that problem was Python's
+origin.George Demmy: Basic too basic (wimpy), Perl too scary (perlious? :), and
+                    Scheme too weird.Python daddy Guido van Rossum has stated repeatedly and much to the
+                    chagrin of the Pythonista faithful that Python is designed for
+                    teaching programming to the uninitiated. I could track down some
+                    quotes if you like, but I don't have any references at hand.
+James Hague: BASIC and Pascal are no longer viable teaching languages.I know that's probably insulting to people who use Python for large
+                    tasks--and I agree that it is a good language for such--but if you dig back
+                    to the original reasons for creating the language, and the philosophy behind
+                    many of its features, then it makes more sense.
+Laurent Szyster: C is dangerous, Java is static and Perl is scary.
+Nathan Myers: Perl is a mess.
+Neil Schemenauer: ABC was not suitable as a system level scripting language.Guido worked
+on the ABC project while at CWI.  For more details take a look at this
+interview: http://www.amk.ca/python/writing/gvr-interview.html.
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+Call for Bugs --
+
+On Lisp is about to be reprinted.
+I'm not going to rewrite it, but I am hoping to fix all
+the errors.  So if you know of a bug that's not listed
+in the errata, please send
+me an email.  Thanks!
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

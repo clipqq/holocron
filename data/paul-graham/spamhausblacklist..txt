@@ -1,0 +1,89 @@
+The Destiny of Blacklists --
+
+June 2005In 1997, a group of anti-spam vigilantes called
+MAPS started a blacklist of mail servers owned by or
+compromised by spammers.  Mail server administrators could use this
+list to block sources of spam.  At least, that was what most
+of them thought they were getting.The problem was, as vigilantes so often do, the guys at MAPS got
+carried away.
+They started to include servers on the list that
+they knew weren't sources of spam, to pressure whoever
+owned the server to do what they wanted.  For example, in order to
+get revenge on people they believed were spamming, MAPS would
+blacklist the mail server of the company hosting their site.MAPS knew these mail servers weren't spam sources.  But they'd
+blacklist them anyway.  Everyone else 
+sharing that server would then have their mail
+blocked.  And MAPS could insist that the hosting company delete
+the site of the (supposed) spammer as the price of all the ISP's
+other, innocent, users having their mail unblocked.This is, strictly speaking, terrorism:
+harming innnocent people as a way to pressure some central authority
+into doing what you want.The innocent people whose mail got blocked as a result of this
+kind of trick weren't "collateral damage."  They weren't harmed
+by accident.  It was in order to harm these innocent people, and
+thus put pressure on their ISP, that MAPS blacklisted them.This kind of tactic gradually brought MAPS into disrepute.
+Most mail server administrators dropped their list and switched to
+another blacklist, the Spamhaus SBL, which was created specifically to
+avoid MAPS-style abuses.
+They were only going to list real spammers.
+And for a couple years they did.Unfortunately, as so often happens, power corrupted them.  About a
+year ago, I started to hear  reports 
+that Spamhaus was starting
+to use the same tactics MAPS had.John Reid of Spamhaus told me this wasn't true-- that the SBL
+was still clean, and that they only blacklisted hosting companies'
+mail servers when they were spam hosts who took on innocent users
+as camouflage:
+
+The sad fact is, some of these "spammer friendly hosts" will
+also try load up with as many non-spammers as they can to try   
+and show legitimacy. We try at all costs to avoid listing legit
+places and people, and only if the host tells us or shows us
+in no uncertain terms that they don't plan to cease hosting
+spammers will we list them in their entirety.
+
+I wanted to believe him.  But before I could reply to his mail,
+I got first-hand evidence that the SBL has in fact gone bad.As of this writing, 
+any filter relying on the SBL is now marking email with the url
+"paulgraham.com" as spam.  Why?  Because the guys at the SBL want
+to pressure Yahoo, where paulgraham.com is hosted,
+to delete the site of a company they believe is spamming.This clearly contradicts what John Reid wrote in his email to
+me.  Yahoo is not a "spam friendly" ISP that takes on a few   
+innocent users to "show legitimacy."  And Spamhaus knows it.
+Of the tens of thousands of sites Yahoo hosts, how many do they
+claim have spammed?  Two.
+This case illustrates an important failing of blacklists.
+Unlike filters, they're run by humans.  And humans are all too likely
+to abuse the kind of power that blacklists embody.
+
+In fairness, it should be added that the new generation of responsible
+blacklists, like the SBL, cause far fewer false positives than earlier
+blacklists like the MAPS RBL, for whom causing large numbers of false
+positives was a deliberate technique to get the attention of ISPs.
+
+Now the SBL seems to have become MAPS. --
+Perhaps someone will start another
+blacklist that tries to avoid such abuses.  But how long before
+that one becomes corrupt too?No doubt this particular case will get sorted out, and mail containing my url 
+will stop getting blocked.  
+  
+But this example is enough to 
+prove that the whole idea of blacklists is broken.  Blacklists have a
+structural flaw: there is no one to watch the watchers.Clarification: Many people seem to assume
+that Spamhaus merely
+blacklisted the IP address of a single spammer's site.  In fact, 
+as well as the spammer's IP address they
+also blacklisted 66.163.161.45, aka store.yahoo.com, which is
+shared by thousands of Yahoo stores.SBL Going Bad?Another SBL StorySBL Listing CriteriaAn Incorruptible Blacklist?
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

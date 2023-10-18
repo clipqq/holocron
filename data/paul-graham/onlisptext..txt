@@ -1,0 +1,24 @@
+Download --
+
+With thanks to Alan Apt of Prentice Hall for giving me back
+the copyright and Chip Coldwell for reproducing it from
+the original tex files, here finally is a digital version of
+On Lisp.[600K Compressed Postscript File][1412K Postscript File][1030K PDF File]This is identical to the printed version, except that 
+nine diagrams are missing.  If you see a blank figure, that's
+what happened.  These unfortunately seem to be lost.Note: Identical means including mistakes.
+Please let me know if you find more.More Info:Code from the BookThe Roots of LispWhat Made Lisp DifferentArc: A New Dialect of Lisp
+On Lisp &copy; mmii pg.
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

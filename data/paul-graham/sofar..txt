@@ -1,0 +1,288 @@
+So Far, So Good --
+
+August 2003(It's about a year now since A Plan for Spam.   So far,
+filters are winning.  This article analyzes the tricks
+spammers have tried to beat them,
+and offers some suggestions for the future.)Bayesian filters are now common enough that we're
+starting to see spams designed specifically to get past them.
+So far these tricks aren't working. My filtering
+rate is still over 99.7%, and Brian Burton reports an
+astonishing 99.9% with his multi-word Bayesian
+SpamProbe.Will such filtering rates hold up?  What are spammers doing to
+attack Bayesian filters?   Is there anything we can do to
+make them tighter?More Good TokensThere are only two ways
+to get past a Bayesian filter: add more good tokens, or
+use fewer bad ones.  Spammers are actively trying both.They try to add good tokens by inserting random
+dictionary words, or by attaching a big chunk of
+neutral text, typically from a book or a wire service article.
+Neither of these tricks works very well.Choosing words
+at random
+yields (as you might expect) words that are just
+as likely to occur in spams as in legitimate mail.  The   
+vocabulary of spams is a little narrower than that of  
+legitimate mail, so spammers may get
+a slight benefit from adding random words, but it is mostly
+a wash, statistically.Most randomly chosen words turn out not to have
+occurred in either spam or nonspam mail, and therefore have
+neutral spam probabilities.  (I still use .4 as the
+default for unseen words.)  You can counter the noise of
+random tokens by using an occurrence threshold, as
+recommended in the Plan for Spam.
+I still use a threshold of 3.Appending
+chunks of articles or books doesn't seem to work
+any better, at least in the cases I've seen so far.  The
+appended text doesn't look like spam, but it doesn't look
+much like the email I get either, so it tends not to have
+any effect, statistically.Many spammers now use randomly generated names in their
+From lines, but these turn out to make filtering easier:
+I get a lot of email from strangers, but none of them
+so far have been called Krystal or Louella.
+I think the names of most users' correspondents will
+fall into a small, consistent subset.
+So choosing names at random will yield tokens with high, not neutral,
+spam probabilities.Fewer Bad TokensThe other way to spoof a Bayesian filter is to use fewer
+bad tokens.  There are two general strategies: try
+to conceal the bad tokens, or rewrite the
+email to use less spammy language.So far, trying to conceal bad tokens is a complete failure.
+All the tricks I've seen so far make the spams easier to
+catch, not harder.  These include misspellings (V1agra),
+breaking up words with spaces or html (S E X),
+sending the spam as an image instead of text,
+and sending a Javascript program that generates the spam.Misspellings
+end up having
+higher spam probabilities than the words they're intended
+to conceal.  In my filter the spam probability of
+"Viagra" is .9848, and of "V1agra" .9998.  [1]
+For this kind of
+trick to work, you have to be the first person to use  
+nearly every misspelling in a spam.  The odds of doing
+that are low, and if you fail you merely teach the filter
+all the new misspellings.Breaking up
+words has the same effect.  It is easy to make
+a tokenizer ignore most such tricks, but it probably
+wouldn't matter if you didn't bother.  Legitimate email
+doesn't contain broken bits of words, so they quickly
+get high spam probabilities.   In my filter the letter S  
+by itself in the subject line has a spam probability of .9427.Sending the spam as an
+image
+instead of text doesn't work
+either, because you need certain html tags to display an
+image, and these all end up having very high
+spam probabilities.  Particularly the url.  If you use a
+domain name and it's one that has shown up in spams
+before, you're dead.  If you use an ip address instead,
+you're even deader.  No tokens have higher spam probabilities
+than numbers in a url.Sending the spam hidden within a
+Javascript
+program fails for a similar reason.  Javascript is even rarer
+in legitimate mails than img tags, so the tokens in a
+Javascript program get very high spam probabilities.RewritingRewriting the spam in less spammy language is the only
+one of these strategies likely to succeed.  But this takes
+a lot of work.  It may not even be possible for
+some spams.  How do you rewrite a mortgage spam
+without using terms like "refinance" (.9612),
+"lenders" (.9862), or "mortgage" (.9995)?
+And remember, whatever euphemisms you use, they
+have to be different from the ones used by every mortgage
+spammer before you.  Surely at this point it would be less
+work for the spammer to switch to some more legitimate
+business.That's an important consideration.  If the only way to
+get past Bayesian filters is to write spams more cleverly,
+we've made spamming a lot harder, because we've shifted the
+burden of cleverness from the few comparatively smart people
+who write spamware to the large number of stupider people  
+who write the spams.The infrastructure of spam is
+built by smart people, what
+Jon
+Praed called "hackers gone bad."
+The spams themselves, however, are written by the
+individual spammers.  Spamware can only help them so far.
+It can insert random words into the spam for them, or
+break up and misspell words, but it can't rewrite the
+spam in less spammy language.  It would take AI
+to do that.When the spammers do try to rewrite their messages,   
+they'll probably do it by replacing
+individual spammy tokens with phrases of more neutral
+words.  But multi-word filters will learn and
+catch these phrases too.
+Brian Burton's 
+Spamprobe 
+and Bill Yerazunis' CRM114
+already look
+at multi-word patterns.  When a spam gets through my
+filter I send it on to them, and they always seem to be
+able to catch it.And of course, spams won't work so well if they have to be rewritten in
+more neutral language.  People who respond to spams are
+presumably pretty dull-witted, and have to be hit over
+the head with a lot of capital letters and exclamation
+points to get them to do anything.  Perhaps you can't
+get them to act at all unless you tell them they have to
+ACT NOW!  So forcing spammers to use
+more neutral language may be enough to put most of them 
+out of business.  We'll see in the coming year.The FutureThis battle has only just started.  I've only been seeing
+spams that seem intended specifically to spoof Bayesian filters
+for a couple months.  But we'll be seeing a
+lot more now that 
+AOL 
+has released Bayesian filters.How will the battle play out?As I said in the Plan for Spam, I think it may all come
+down to links.  The Web is the main cause of spam, not email.
+Nearly all spams include some kind of contact
+mechanism, and this is nearly always a link. [2]
+This is the part of the spam that filter writers should
+focus on, because this is the hardest for the
+spammer to change.Better Bayesian Filtering
+mentioned that filters could
+be made more discriminating by marking tokens with their
+context.  "FREE" in the subject line has a much higher
+spam probability (.9999) than "FREE" in the body (.7567).
+So far I have
+only marked tokens with the name of the header line they  
+occur in.  This idea could be expanded to
+squeeze more information out of links.
+Tokens like "here", "remove", or "img"
+within a link will have a much higher spam probability than
+they would otherwise.
+(This would probably be true for tokens within e.g. font tags, too.)In response to filters, spams are getting smaller.
+In many the payload now consists of a single image tag
+within a link:
+
+   
+   
+
+But this much html is still enough to catch the spam.
+In effect, you can recognize
+this kind of spam by its form.If these spams have anything in them besides the
+link and the image tag, it's usually just chaff-- random
+text intended to spoof filters.  So far such chaff is
+ineffective, but we can't assume it will stay that way.
+There are ways to generate text that would
+work better at counterbalancing the spamminess of
+the link and the image.Eventually filters might have to take steps to
+recognize and ignore chaff.  For example, if an email  
+had some tokens with very high spam probabilities, and
+others with very low spam probabilities, you might want
+to ask if the spammy words all occurred close together,
+or rescore it looking only at the html.Another way to factor out chaff might be to look at whether the text
+seemed grammatical.  You wouldn't necessarily have to parse it.
+For English, at least, I can imagine several ways to come up with a
+quick statistical estimate.The hardest kind of spams to catch are those I've called
+"spam of the future"-- a little plain text plus a url:
+
+Hey there. Check out the following:
+http://www.blackboxhosting.com/foo
+
+The future has arrived.  I regularly see spams like this
+now.  I still catch nearly all of them-- headers alone would
+be enough to catch most current spam-- but the .3% of
+spam that I miss is mostly spam of the future.In spam of the future, the sales pitch is pushed one step
+back.  Instead of being contained in the email itself,
+as in an ordinary spam, it is waiting a click away on a
+web site.This trend is encouraging, because it implies that filters are
+winning.  Spam is literally retreating.  (This is more than
+a symbolic victory; each extra step cuts response rates.)If the spam is waiting
+on a web site, why not have filters go look at what's there?
+You could apply the filtering algorithm pretty much
+unchanged to the contents of the site.
+Richard Jowsey of
+death2spam has already
+started doing this in borderline cases, and he
+reports that it works well.A cheaper alternative would be a cooperative list of
+sites advertised in spams.  Instead of examining the site,
+a filter could query a server (or p2p network) to see if
+other users had recently reported spams promoting that
+domain.  If so it could
+be treated as a token with very high spam probability.
+(A cooperative list of spamvertised sites would be useful
+for other purposes as well.)This idea could be generalized to a cooperative list of
+all tokens with high spam probabilities, not just domain names.
+This would improve filtering rates for everyone, but particularly
+for users of newly installed filters, which would now
+need little training.To take advantage of this kind of information, we
+should ideally delay filtering as long as possible.  I.e.
+filter when the user checks his mail, not when it arrives
+at the server.    By the time you check your mail, odds are
+that any spam that made it into in your inbox has already
+been seen by thousands of people.Divide and ConquerSome people believe that spammers will inevitably figure
+out a way around filters, and that a better solution is to
+have laws making spamming a federal crime.
+I'd love to see such laws myself, at least if they were
+written properly.  And strangely enough, I think filters will
+help this to happen.  There is a class of spammers who
+couldn't evade filters even if they knew how, and eliminating
+these will make it easier to attack the rest.It's hard to pass effective laws against spam now,
+because there is a continuum of spammers, ranging from
+(ahem) "permission-based email marketers" like Virtumundo 
+that send unsolicited
+email to addresses they buy from sites with unscrupulous privacy
+policies, to bottom-feeders
+like Alan
+Ralsky who send unsolicited email to addresses
+culled from web pages, chat rooms, and newsgroups. [3]The companies at the more legitimate end of the spectrum
+lobby for loopholes that allow the bottom-feeders to slip through too.
+For example, congress seems to be considering allowing
+unsolicited mail so long as it contains a working unsubscribe link. [4]
+This despite the fact that most experts advise
+against
+clicking on unsubscribe links, because they just
+tell the more unscrupulous spammers that you're a live   
+target.  How does congress expect the email recipient to
+be able to figure out which unsubscribe links yield less
+spam, and which yield more?Filters will help fix this situation, by putting the
+"opt-in" spammers out of business.  Such companies can't take
+serious measures to spoof filters (e.g. falsifying headers)
+and still maintain the fiction that the tens of millions of
+people on their lists are "subscribers" who
+actually want to receive their valuable offers. [5]The result is that "opt-in" spam is very easy to filter.  
+I can't imagine any Bayesian filter, however badly implemented,
+not catching this stuff.  I don't think I've ever had a single one
+get through mine.As the growing volume of spam encourages widespread use of
+filters, the number of people who see
+spam sent by the "opt-in" mailers will gradually shrink
+down to nothing.  And with it the companies themselves.True, this would put the wrong half of the spammers out of
+business.  But getting rid of the "opt-in" spammers will
+ultimately hurt the bottom-feeders too.If the "opt-in" spammers went away, leaving a clear gap between
+L. L. Bean and Alan Ralsky, it would be easier to pass
+laws that distinguished between them.    It would be
+clear to everyone where marketing ended and
+crime began, and there would be no lobbyists working to
+blur the distinction.Putting a lock on your door may not keep everyone out,
+but it makes it easy to distinguish between the people
+you invite and the people who break in.
+Notes[1] The difference wouldn't be as great for most people, but
+much of my mail is about spam, and so often contains the
+word "Viagra".[2] About 95% of spam sent to me contains urls.  The rest
+are evenly divided between 419,
+MLM, and non-ascii (mostly
+Russian) spams, most of which want you to respond by email,
+and all of which are easy to filter.
+Anyone want to write an ELIZA to talk to these people?[3] Is there that much difference
+between these two cases?[4] "Unsubscribe" is of course a misnomer.  You didn't
+subscribe to their email list.  They just bought
+your address from someone.  But for better or worse getting
+yourself off a spammer's list has come to be called
+unsubscribing.[5] I did once get a 
+spam 
+promoting Omaha Steaks in which the
+subject line read
+
+12_F.R.E.E._Hamburgers & Half_Price_Steaks
+
+This is pushing the limits of plausible deniability.
+You have to wonder how they can continue to claim they're
+sending offers to willing recipients, while at the same
+time taking such obvious steps to spoof filters. What's next?
+Mail from 0ma_ha 5teakz?
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
