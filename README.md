@@ -1,7 +1,7 @@
-# Natural Language Real Estate Search Version 1.0 (latest stable)
+# Holocron Version 1.0 (latest stable)
 
 Github repository:
-https://github.com/clipqq/brookhurst-app
+https://github.com/clipqq/holocron
 
 ---
 
@@ -15,7 +15,7 @@ https://github.com/clipqq/brookhurst-app
 ## Local Development
 
 1. Go to the application folder:
-   `cd brookhurst-app`
+   `cd holocron`
 
 2. Create a virtual environment for the app:
    `python3 -m venv .venv`
