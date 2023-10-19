@@ -57,15 +57,34 @@ def hello():
     # gptContent = gptRes["choices"][0]["message"]["content"]
     # print(gptContent)
 
-    gptContent = index.query(userInput)
-    print(gptContent)
+    gptResponse = index.query(userInput)
+    print(gptResponse)
 
     if userInput:
         print("Request for input page received: " + userInput)
-        return render_template("hello.html", input=userInput, output=gptContent)
+        return render_template("hello.html", input=userInput, output=gptResponse)
     else:
         print("Request for input page received with empty input -- redirecting")
         return redirect(url_for("index"))
+
+
+@app.route("/get")
+def invokePersona():
+    persona = "steve-jobs"
+
+    # if name is not None:
+    #     persona = name
+
+    userInput = request.args.get("msg")
+
+    loader = DirectoryLoader(
+        "data/" + persona, glob="*", show_progress=True, loader_cls=TextLoader
+    )
+    index = VectorstoreIndexCreator().from_loaders([loader])
+
+    gptResponse = index.query(userInput)
+
+    return str(gptResponse)
 
 
 if __name__ == "__main__":

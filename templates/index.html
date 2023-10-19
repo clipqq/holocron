@@ -1,32 +1,120 @@
 {% extends "base.html" %} {% block title %} {{ super() }} {% endblock %} {%
-block head %} {{ super() }} {% endblock %} {% block content %}
+block head %}
+<link
+    rel="shortcut icon"
+    type="image/x-icon"
+    href="https://user-images.githubusercontent.com/20112458/49326597-773b7280-f57a-11e8-853d-20ed61d18b0d.png"
+/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<style>
+    body {
+        font-family: sans-serif;
+    }
 
-<div id="content" class="d-grid justify-content-center text-center">
-    <h1>Welcome to the Holocron</h1>
-
-    <form method="post" action="{{url_for('hello')}}">
-        <div class="col-md-6 mx-auto text-center">
-            <label for="name" class="form-label fw-bold fs-5"
-                >What is your query?</label
-            >
-            <div class="d-grid justify-content-center align-items-center">
-                <textarea
-                    type="text"
-                    class="form-control"
-                    id="user-input"
-                    name="user-input"
-                    style="min-width: 600px"
-                    rows="3"
-                >
-                </textarea>
+    #chatbox {
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        margin-top: 60px;
+    }
+    #userInput {
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        margin-top: 60px;
+    }
+    #textInput {
+        width: 90%;
+        border: none;
+        border-bottom: 3px solid black;
+        font-size: 17px;
+    }
+    .userText {
+        color: white;
+        font-size: 17px;
+        text-align: right;
+        line-height: 30px;
+    }
+    .userText span {
+        background-color: #808080;
+        padding: 10px;
+        border-radius: 2px;
+    }
+    .botText {
+        color: white;
+        font-size: 17px;
+        text-align: left;
+        line-height: 30px;
+    }
+    .botText span {
+        background-color: #4169e1;
+        padding: 10px;
+        border-radius: 2px;
+    }
+    #tidbit {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 300px;
+    }
+    .boxed {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        margin-top: 60px;
+        border: 1px solid white;
+    }
+    .box {
+        border: 2px solid black;
+    }</style
+>{% endblock %} {% block content %}
+<div id="content" class="d-grid justify-content-center">
+    <center>
+        <h1>Holocron</h1>
+    </center>
+    <div class="box"></div>
+    <div class="boxed">
+        <div>
+            <div id="chatbox">
+                <p class="botText">
+                    <span>Hi, I'm Steve Jobs.</span>
+                </p>
             </div>
-            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center my-2">
-                <button type="submit" class="btn btn-primary btn-lg px-4 gap-3">
-                    Submit
-                </button>
+            <div id="userInput">
+                <textarea
+                    id="textInput"
+                    type="text"
+                    name="msg"
+                    placeholder="Message"
+                    row="3"
+                ></textarea>
             </div>
         </div>
-    </form>
+    </div>
 </div>
+
+<script>
+    function getBotResponse() {
+        var rawText = $('#textInput').val()
+        var userHtml = '<p class="userText"><span>' + rawText + '</span></p>'
+        $('#textInput').val('')
+        $('#chatbox').append(userHtml)
+        document
+            .getElementById('userInput')
+            .scrollIntoView({ block: 'start', behavior: 'smooth' })
+        $.get('/get', { msg: rawText }).done(function (data) {
+            var botHtml = '<p class="botText"><span>' + data + '</span></p>'
+            $('#chatbox').append(botHtml)
+            document
+                .getElementById('userInput')
+                .scrollIntoView({ block: 'start', behavior: 'smooth' })
+        })
+    }
+    $('#textInput').keypress(function (e) {
+        if (e.which == 13) {
+            getBotResponse()
+        }
+    })
+</script>
 
 {% endblock %}

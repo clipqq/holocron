@@ -15,8 +15,10 @@
     </head>
 
     <body>
-        <div id="content">{% block content %} {% endblock %}</div>
-        <div id="footer" class="d-flex justify-content-center">
+        <div id="content" class="d-grid justify-content-center text-center">
+            {% block content %} {% endblock %}
+        </div>
+        <div id="footer" class="d-grid justify-content-center text-center">
             {% block footer %} &copy; Copyright 2023 by Clifford Tran {%
             endblock %}
         </div>
