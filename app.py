@@ -16,6 +16,7 @@ from langchain.document_loaders import TextLoader, DirectoryLoader, JSONLoader
 from langchain.indexes import VectorstoreIndexCreator
 from langchain.llms import OpenAI
 from langchain.chat_models import ChatOpenAI
+from langchain.prompts import PromptTemplate
 
 import json
 
@@ -70,12 +71,8 @@ def hello():
 
 @app.route("/get")
 def invokePersona():
-    persona = "steve-jobs"
-
-    # if name is not None:
-    #     persona = name
-
     userInput = request.args.get("msg")
+    persona = request.args.get("person")
 
     loader = DirectoryLoader(
         "data/" + persona, glob="*", show_progress=True, loader_cls=TextLoader

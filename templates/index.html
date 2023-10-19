@@ -70,14 +70,29 @@ block head %}
 >{% endblock %} {% block content %}
 <div id="content" class="d-grid justify-content-center">
     <center>
-        <h1>Holocron</h1>
+        <h1>Welcome to the Holocron</h1>
+        <h3>Select a person to speak with:</h3>
+        <select class="form-select" id="persona">
+            <option selected value="steve-jobs" name="Steve Jobs">
+                Steve Jobs
+            </option>
+            <option value="anthony-bourdain">Anthony Bourdain</option>
+            <option value="paul-graham">Paul Graham</option>
+            <option value="jesus-christ">Jesus Christ</option>
+            <option value="marcus-aurelius">Marcus Aurelius</option>
+            <option value="richard-branson">Richard Branson</option>
+            <option value="malcolm-x">Malcolm X</option>
+            <option value="benjamin-graham">Benjamin Graham</option>
+            <option value="robert-kiyosaki">Robert Kiyosaki</option>
+            <option value="napoleon-hill">Napoleon Hill</option>
+        </select>
     </center>
     <div class="box"></div>
     <div class="boxed">
         <div>
             <div id="chatbox">
                 <p class="botText">
-                    <span>Hi, I'm Steve Jobs.</span>
+                    <span>Hi, ask me a question. </span>
                 </p>
             </div>
             <div id="userInput">
@@ -96,14 +111,18 @@ block head %}
 <script>
     function getBotResponse() {
         var rawText = $('#textInput').val()
+        var persona = $('#persona').val()
+        var personaName = $('#persona').val() + '\: '
         var userHtml = '<p class="userText"><span>' + rawText + '</span></p>'
+
         $('#textInput').val('')
         $('#chatbox').append(userHtml)
         document
             .getElementById('userInput')
             .scrollIntoView({ block: 'start', behavior: 'smooth' })
-        $.get('/get', { msg: rawText }).done(function (data) {
-            var botHtml = '<p class="botText"><span>' + data + '</span></p>'
+        $.get('/get', { msg: rawText, person: persona }).done(function (data) {
+            var botHtml =
+                '<p class="botText"><span>' + personaName + data + '</span></p>'
             $('#chatbox').append(botHtml)
             document
                 .getElementById('userInput')
