@@ -1,17 +1,24 @@
 <!DOCTYPE html>
-<head>
-    <title>Holocron</title>
-    <link
-        rel="stylesheet"
-        href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}"
-    />
-    <link
-        rel="shortcut icon"
-        href="{{ url_for('static', filename='favicon.ico') }}"
-    />
-</head>
 <html>
+    <head>
+        {% block head %}
+        <title>{% block title %}Holocron{% endblock %}</title>
+        <link
+            rel="stylesheet"
+            href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}"
+        />
+        <link
+            rel="shortcut icon"
+            href="{{ url_for('static', filename='favicon.ico') }}"
+        />
+        {% endblock %}
+    </head>
+
     <body>
-        <main></main>
+        <div id="content">{% block content %} {% endblock %}</div>
+        <div id="footer" class="d-flex justify-content-center">
+            {% block footer %} &copy; Copyright 2023 by Clifford Tran {%
+            endblock %}
+        </div>
     </body>
 </html>
