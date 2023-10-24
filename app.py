@@ -19,7 +19,7 @@ from langchain.chat_models import ChatOpenAI
 from langchain.prompts import PromptTemplate
 
 from llama_index import (
-    GPTSimpleVectorIndex,
+    GPTVectorStoreIndex,
     download_loader,
     LLMPredictor,
     PromptHelper,
@@ -53,7 +53,7 @@ def createLocalIndex():
     loader = SimpleDirectoryReader("./myFolder")
 
     documents = loader.load_data()
-    index = GPTSimpleVectorIndex(
+    index = GPTVectorStoreIndex(
         documents, llm_predictor=llm_predictor, prompt_helper=prompt_helper
     )
 
@@ -61,7 +61,7 @@ def createLocalIndex():
     index.save_to_disk("index_trinity_test.json")
 
     # Load the index from a local file
-    index = GPTSimpleVectorIndex.load_from_disk("index_trinity_test.json")
+    index = GPTVectorStoreIndex.load_from_disk("index_trinity_test.json")
 
 
 @app.route("/get")
