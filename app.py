@@ -1,16 +1,10 @@
 import os
 from flask import (
     Flask,
-    redirect,
     render_template,
     request,
     send_from_directory,
-    url_for,
 )
-from dotenv import load_dotenv
-
-# import openai
-import nltk
 
 from langchain.document_loaders import TextLoader, DirectoryLoader, JSONLoader
 from langchain.indexes import VectorstoreIndexCreator
@@ -19,25 +13,25 @@ from langchain.chat_models import ChatOpenAI
 from langchain.prompts import PromptTemplate
 
 from llama_index import (
-    GPTSimpleVectorIndex,
+    GPTVectorStoreIndex,
     download_loader,
     LLMPredictor,
     PromptHelper,
+    load_index_from_storage,
+    load_indices_from_storage,
+    load_graph_from_storage,
 )
 
-import json
 
 OpenAI.api_key = os.getenv("OPENAI_API_KEY")
 
 app = Flask(__name__)
 
 
-def createLocalIndex():
-    # Define LLM properties
-    # Only required when building the index
-    llm_predictor = LLMPredictor(
-        llm=OpenAI(temperature=0, model_name="text-davinci-003")
-    )
+def createLocalIndex(persona):
+    print("called createLocalIndex...")
+    dataDirectory = "data/" + persona
+    indexJson = persona + "_index.json"
 
     # define prompt helper
     # set maximum input size
@@ -45,38 +39,76 @@ def createLocalIndex():
     # set number of output tokens
     num_output = 256
     # set maximum chunk overlap
-    max_chunk_overlap = 20
-    prompt_helper = PromptHelper(max_input_size, num_output, max_chunk_overlap)
+    max_chunk_overlap = 0.1
+    # set chunk token size
+    chunk_size_limit = 600
+    prompt_helper = PromptHelper(
+        max_input_size, num_output, max_chunk_overlap, chunk_size_limit=chunk_size_limit
+    )
+    print("set prompt helper...")
+
+    # Define LLM properties
+    # Only required when building the index
+    llm_predictor = LLMPredictor(
+        llm=OpenAI(temperature=0, model_name="text-davinci-003", max_tokens=num_output)
+    )
+    print("set llm_predictor...")
 
     SimpleDirectoryReader = download_loader("SimpleDirectoryReader")
 
-    loader = SimpleDirectoryReader("./myFolder")
+    loader = SimpleDirectoryReader(dataDirectory)
 
     documents = loader.load_data()
-    index = GPTSimpleVectorIndex(
-        documents, llm_predictor=llm_predictor, prompt_helper=prompt_helper
+
+    print("document loader created...")
+
+    index = GPTVectorStoreIndex(
+        documents,
+        llm_predictor=llm_predictor,
+        prompt_helper=prompt_helper,
+        verbose=True,
     )
 
-    # Save the index to a local file
-    index.save_to_disk("index_trinity_test.json")
+    print("index created...")
 
-    # Load the index from a local file
-    index = GPTSimpleVectorIndex.load_from_disk("index_trinity_test.json")
+    # Save the index to a local file
+    # index.save_to_disk(indexJson)
+    # using new save syntax
+    # if not os.path.isfile(os.path.join(dataDirectory, indexJson)):
+    print("persona json not found, making one...")
+    index.storage_context.persist(persist_dir=dataDirectory)
+    print("saved new index in: " + dataDirectory)
+
+    # # Load the index from a local file
+    # index = GPTVectorStoreIndex.load_from_disk(indexJson)
+
+    return index
 
 
 @app.route("/get")
 def invokePersona():
+    print("invoking Persona...")
+
     userInput = request.args.get("msg")
     persona = request.args.get("person")
 
-    loader = DirectoryLoader(
-        "data/" + persona, glob="*", show_progress=True, loader_cls=TextLoader
-    )
-    index = VectorstoreIndexCreator().from_loaders([loader])
+    dataDirectory = "data/" + persona
 
-    gptResponse = index.query(userInput)
+    # create index Json if not already in directory
 
-    return str(gptResponse)
+    createLocalIndex(persona)
+
+    # Load the index from a local file
+    print("loading persona index...")
+    index = load_index_from_storage(dataDirectory)
+
+    while True:
+        gptResponse = index.query(userInput, response_mode="compact", verbose=True)
+
+        print("user asked: " + userInput)
+        print("response is: " + gptResponse)
+
+        return str(gptResponse)
 
 
 @app.route("/")
