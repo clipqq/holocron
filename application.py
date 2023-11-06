@@ -29,7 +29,7 @@ import json
 
 OpenAI.api_key = os.getenv("OPENAI_API_KEY")
 
-app = Flask(__name__)
+application = Flask(__name__)
 
 
 def createLocalIndex():
@@ -64,7 +64,7 @@ def createLocalIndex():
     index = GPTVectorStoreIndex.load_from_disk("index_trinity_test.json")
 
 
-@app.route("/get")
+@application.route("/get")
 def invokePersona():
     userInput = request.args.get("msg")
     persona = request.args.get("person")
@@ -79,20 +79,20 @@ def invokePersona():
     return str(gptResponse)
 
 
-@app.route("/")
+@application.route("/")
 def index():
     print("Request for index page received")
     return render_template("index.html")
 
 
-@app.route("/favicon.ico")
+@application.route("/favicon.ico")
 def favicon():
     return send_from_directory(
-        os.path.join(app.root_path, "static"),
+        os.path.join(application.root_path, "static"),
         "favicon.ico",
         mimetype="image/vnd.microsoft.icon",
     )
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    application.run(debug=True)
