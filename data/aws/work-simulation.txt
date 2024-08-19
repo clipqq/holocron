@@ -1,0 +1,110 @@
+Question 1: The VP’s task will take about 7 hours to complete. What will you do next?
+Rate the effectiveness for each answer.
+Explanation: You receive a new task from your team leader, which was given to her by the Regional VP with high importance for tomorrow. Even though you still have the webpage’s release due Friday, you are expected to follow your superior’s orders and complete the urgent task.
+
+Option: Request order for priority for the tasks from your team lead.
+Effectiveness: Slightly Effective
+Explanation: The task was given to you to complete. Going back to the team lead would be time consuming and would not show independence or responsibility. This answer refers to Amazon’s Bias For Action principle, as it shows lack of regard for risk-taking and time management.
+
+Option: Develop order for priority and suggest it to your team lead
+Effectiveness: Slightly Effective
+Explanation: While this option could help with the ongoing completion of the webpage’s release, this is a very time-consuming task that would take precious time for both making the prioritization and getting approval from the team lead. This answer refers to Amazon’s Bias For Action principle, as it shows lack of regard for risk-taking and time management.
+
+Option: Request aid from a colleague in finishing the release pitch.
+Effectiveness: Moderately Effective
+Explanation: Requesting assistance from a colleague outside the team might be problematic, as the task might not be done properly and it will take time to explain the task and monitor their progress. However, it is less time consuming and may be useful for completing both tasks on time. This answer refers to Amazon’s Dive Deep principle, as it highlights working with colleagues and diving deep into the smallest of details.
+
+Option: Give the VP’s task top priority at the expense of the webpage’s release task.
+Effectiveness: Very Effective
+Explanation: Even though this answer neglects the webpage’s release tasks altogether, it is the most relevant answer as it shows understanding of the urgency of the VP’s task and understanding of the need to follow orders from superiors. This answer refers to Amazon’s Deliver Results principle, as it shows understanding of urgency for the new task and accomplishing it on time – even at the price of other tasks, which are now less urgent.
+
+
+Question 2: How would you best ensure the completion of the release pitch for Thursday? 
+Explanation: The team leader finds a problem in one of your tasks regarding Thursday’s pitch, creating a situation in which time may be shortened due to revisiting the design projection. This may affect completion of the pitch by Thursday. However, this adjustment is required to meet the deadline and provide the highest standard of product.
+Rate the effectiveness for each answer.
+
+Option: Ask your team lead for design ideas
+Effectiveness: Slightly Effective
+Explanation: The task given to you by your team leader needs to be handled by you, as reaching out to her again shows lack of initiative, responsibility, and independence. However, since it is the team leader who found fault in the design projection, she might have good input into how it should look, saving valuable time. This answer refers to Amazon’s Dive Deep principle, as it shows lack of independent reviewing of minor details.
+
+Option: Continue the pitch as it is to meet the deadline
+Effectiveness: Ineffective
+Explanation: Moving forward with the pitch without fixing its issues not only overlooks the team lead’s remarks, but also knowingly proceeds with a low-standard product. This answer refers to Amazon’s Ownership principle, as it shows lack of investment in every project and detail, as well as lack of a long-term view.
+
+Option: Consult with a design partner to improve the design projection
+Effectiveness: Very Effective
+Explanation: Consulting a specialist who can save time by easily spotting errors and improvements and also create a higher standard product is a good option for action. Therefore, this choice is both time saving and quality improving. However, it does require contacting and working with someone outside of your team, which would waste time and may lead to an inaccurate product based on the partner’s lack of knowledge of the subject. Therefore, this answer could be either Highly Effective or Very Effective. This answer refers to Amazon’s Earn Trust principle, as it shows the ability to connect with partners and different workers and employees to achieve the best results.
+
+Option: Examine similar previous projects to receive better input on the design
+Effectiveness: Slightly Effective
+Explanation: Examining old projects for comparison shows repetition and lack of innovation, which doesn’t follow Amazon’s agenda of reinventing themselves with each new project. While this can be educating and time saving, new ideas must be demonstrated in every project. This answer refers to Amazon’s Invent and Simplify principle, as it shows lack of both initiative and creative thinking.
+
+
+Question 3: It is now Black Friday, and the product is a best seller. However, you received a message from the vendor saying they can’t supply more units for a month. The In-Stock Manager, Cynthia Kay, suggests cutting the deal off early to leave reserves for that month. What will you take into consideration before making the choice of whether to cut off the deal early? Rate the effectiveness for each answer.
+Explanation: You are dealing with new information. During Black Friday, while the product you chose is a success, there is now a new problem: continuing to sell the product will leave you out of stock for a month. Now you must decide whether to stop the deal despite it going well, to keep reserves in stock for the following month, or to continue to sell the product and risk running out of stock and dealing with the future consequences of that.
+
+
+Option: Competition’s sales
+Effectiveness: Moderately Effective
+Explanation: An effective Amazon manager and worker should consider the competition, mainly to find ways to improve customer service. However, that is not a top priority for you and therefore falls in the middle ground. This answer refers to Amazon’s Customer Obsession principle, which claims that while a good leader pays attention to competitors, they are not as important as the customers.
+
+Option: Relationship with the vendor
+Effectiveness: Very Effective
+Explanation: There is great importance in maintaining good relations with the vendors. Choices may impact future resupplying times, and good vendor relations may possibly hasten the time for resupply, as different suppliers or priorities may be given. This answer refers to Amazon’s Earn Trust principle, as it shows the importance of maintaining good relations and a positive working environment with employees, coworkers, and partners – the vendors included.
+
+Option: Customer experience
+Effectiveness: Highly Effective
+Explanation: Customer service is a top priority in Amazon. All decisions must be measured by how they will impact customers. This answer refers to Amazon’s Customer Obsession principle, as considering the customer implications of all decisions is Amazon’s top priority.
+
+Option: Impact on profit for the month
+Effectiveness: Slightly Effective
+Explanation: While profit may take a hit if the product is out of stock for a month, the sell-out on Black Friday may cover those losses, and other products that are not currently on demand may sell more during this period. Also, customer service always comes first, even at the cost of profit loss. This answer refers to Amazon’s Deliver Results principle, which claims that results should be given – in this case, the result is the profit. However, since the results are also crucial for Black Friday, there is a need to deliver results to your current task with swift decisions.
+
+
+
+Rate the effectiveness of each option regarding implementation of the reform steps.
+
+
+
+
+
+
+
+
+
+
+
+Ask the senior operations manager to order the changes be applied in all shifts.
+
+
+
+
+Ratings of effectiveness will focus on the “Strive to Be Earth’s Best Employer” Amazon value. This value dictates the importance of considering the full spectrum of options to ensure a safe and high-performing team.
+
+Leaders work every day to create a safer, more productive, higher-performing, more diverse, and more just work environment…
+Rate the effectiveness of each option regarding implementation of the reform steps.
+
+
+Option: Present the reform to the whole team in the weekly Thursday meeting.
+Effectiveness: Slightly Effective
+Explanation:Sharing information with the entire team is consistent with Amazon's values and is an effective strategy to disseminate information. It’s also key to gathering feedback to ensure the implementation approach is clear.
+
+Option: Meet the other operations managers and ask them to delegate the changes to their respective area managers.
+Effectiveness: Slightly Effective
+Explanation: As long as the associates and area managers have the opportunity to share feedback and ask questions about the details of implementation in another forum, this is a strong idea. However, as new information and protocols with a lot of associated detail are disseminated from person to person without a written guide, there is the risk of diminished accuracy with this kind of approach.
+
+Option: Examine the reform in your shift first and share your inputs with the other managers.
+Effectiveness: Slightly Effective
+Explanation: Experimenting on your shift and sharing the results with the rest of the shifts shows both innovation and critical thinking to implement tested and successful changes.
+
+Option: Email the operations and area managers and describe the reform and its steps.
+Effectiveness: Slightly Effective
+Explanation: It will be important to gain their approval and feedback regarding the planned changes. But as they constitute significant changes, it may be optimal and more respectful to communicate first to the manager at the same level.
+
+Option: Forward to the operations managers the indirect work data and ask if their own data match your information.
+Effectiveness: Slightly Effective
+Explanation: While doing so may help organize data to better implement the changes, emailing the rest of the operations managers about the changes without explaining to them the underlying idea behind them will lead to errors and misalignment between shifts.
+
+Option: Ask the senior operations manager to order the changes be applied in all shifts.
+Effectiveness: Slightly Effective
+Explanation: Although all shift changes should be approved/endorsed by the senior operations manager, it is more likely that implementation would fall with the lesser senior operations managers.
